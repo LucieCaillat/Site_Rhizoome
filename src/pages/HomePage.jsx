@@ -1,39 +1,53 @@
 import styled from "styled-components";
 import colors from "../utils/style/colors";
+import fontSize from "../utils/style/fontSize";
 import bug from "../assets/bug.jpg";
 
+const StyledHomePage = styled.div`
+  background-color: red;
+  display: flex;
+  flex-direction: column;
+`;
+
 const Cover = styled.img`
-  height: 90vh;
+  height: 95vh;
   width: 100%;
+  object-fit: cover;
 `;
 
 const Title = styled.h1`
-  position: relative;
-  top: -80vh;
-  background-color: black;
+  position: absolute;
+  top: 15vh;
+  left: 5%;
   height: 0px;
   margin: 0px;
   color: ${colors.police.title};
+  font-size: ${fontSize.title};
+  padding: 0;
   & span {
+    display: block;
     color: ${colors.police.subtitle};
+    font-size: ${fontSize.subtitle};
   }
 `;
 
 const Introduction = styled.div`
   background-color: ${colors.background.lightBrown};
-  padding: 15px;
+  color: ${colors.police.title};
+  padding: 50px 5%;
 `;
 const Title2 = styled.h2`
-  font-size: 13px;
   margin-top: 0px;
+  font-size: ${fontSize.title2};
 `;
 const BodyText = styled.p`
-  font-size: 10px;
+  font-size: ${fontSize.bodyText};
+  font-weight: bold;
 `;
 
 export default function HomePage() {
   return (
-    <div>
+    <StyledHomePage>
       <Cover src={bug} />
       <Title>
         Animation nature <br />
@@ -51,6 +65,6 @@ export default function HomePage() {
           thérapeutiques, adaptées au public, modulables et diversifiées!
         </BodyText>
       </Introduction>
-    </div>
+    </StyledHomePage>
   );
 }
