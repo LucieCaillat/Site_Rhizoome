@@ -4,7 +4,6 @@ import fontSize from "../utils/style/fontSize";
 import bug from "../assets/bug.jpg";
 
 const StyledHomePage = styled.div`
-  background-color: red;
   display: flex;
   flex-direction: column;
 `;

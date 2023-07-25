@@ -4,6 +4,7 @@ import fontSize from "../../utils/style/fontSize";
 import logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 import PullDownMenu from "./PullDownMenu";
+import MobileMenu from "./MobileMenu";
 
 const HeaderDiv = styled.nav`
   width: 100%;
@@ -17,6 +18,9 @@ const Logo = styled(Link)`
   margin-left: 2%;
   & img {
     width: 300px;
+    @media only screen and (max-width: 1050px) {
+      width: 250px;
+    }
   }
 `;
 const List = styled.ul`
@@ -30,15 +34,12 @@ const List = styled.ul`
   & li {
     list-style-type: none;
   }
-  @media only screen and (max-width: 768px) {
-    display: none;
+  @media only screen and (max-width: 1050px) {
+    width: 500px;
+    margin-right: 2%;
   }
-`;
-const MenuBars = styled.i`
-  font-size: 30px;
-  color: ${colors.police.nav};
-  margin-right: 10%;
-  @media only screen and (min-width: 768px) {
+
+  @media only screen and (max-width: 770px) {
     display: none;
   }
 `;
@@ -49,6 +50,9 @@ const NavLink = styled(Link)`
   font-weight: bold;
   &:hover {
     filter: brightness(0.5);
+  }
+  @media only screen and (max-width: 1050px) {
+    font-size: 18px;
   }
 `;
 
@@ -62,6 +66,9 @@ export default function Header() {
         <li>
           <NavLink to="/">Accueil</NavLink>
         </li>
+        <li>
+          <NavLink to="/QuiSommeNous">Qui sommes-nous?</NavLink>
+        </li>
         <PullDownMenu
           name="Activités"
           listLink={[
@@ -70,9 +77,6 @@ export default function Header() {
             { name: "Mediation Par l'animal", link: "/MediationAnimal" },
           ]}
         />
-        <li>
-          <NavLink to="/QuiSommeNous">Qui sommes-nous?</NavLink>
-        </li>
         <PullDownMenu
           name="Infos pratiques"
           listLink={[
@@ -82,7 +86,7 @@ export default function Header() {
           ]}
         />
       </List>
-      <MenuBars className="fas fa-bars"></MenuBars>
+      <MobileMenu />
     </HeaderDiv>
   );
 }
