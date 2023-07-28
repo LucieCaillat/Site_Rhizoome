@@ -5,6 +5,8 @@ const fontSize = {
   subtitle: "45px",
   title2: "45px",
   bodyText: "30px",
+  activityFrames: "45px",
+  greenBtn: "30px",
 };
 
 export default fontSize;

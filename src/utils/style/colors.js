@@ -11,6 +11,7 @@ const colors = {
     subtitle: "#87bd28",
     nav: "#55604d",
     activeNav: "#af7634",
+    cream: "#ffe6ba",
   },
 };
 
