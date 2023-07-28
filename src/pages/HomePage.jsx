@@ -3,6 +3,7 @@ import colors from "../utils/style/colors";
 import fontSize from "../utils/style/fontSize";
 import Carousel from "../components/homePage/Carousel";
 import ActivityFrames from "../components/homePage/ActivityFrames";
+import TeamPart from "../components/homePage/TeamPart";
 
 const StyledHomePage = styled.div`
   display: flex;
@@ -60,6 +61,9 @@ export default function HomePage() {
         </BodyText>
       </Introduction>
       <ActivityFrames />
+      <TeamPart />
     </StyledHomePage>
   );
 }
+
+export { Title2, BodyText };
