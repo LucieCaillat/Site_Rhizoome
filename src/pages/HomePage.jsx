@@ -1,17 +1,11 @@
 import styled from "styled-components";
 import colors from "../utils/style/colors";
 import fontSize from "../utils/style/fontSize";
-import bug from "../assets/bug.jpg";
+import Carousel from "../components/homePage/Carousel";
 
 const StyledHomePage = styled.div`
   display: flex;
   flex-direction: column;
-`;
-
-const Cover = styled.img`
-  height: 95vh;
-  width: 100%;
-  object-fit: cover;
 `;
 
 const Title = styled.h1`
@@ -47,7 +41,7 @@ const BodyText = styled.p`
 export default function HomePage() {
   return (
     <StyledHomePage>
-      <Cover src={bug} />
+      <Carousel />
       <Title>
         Animation nature <br />
         & Médiation animale <br />
