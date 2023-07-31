@@ -5,6 +5,7 @@ const colors = {
     green: "#87bd28",
     lightBrown: "#af7634",
     cream: "#ffe6ba",
+    roundImageLink: "rgba(175,118,52,0.8)",
   },
   police: {
     title: "#f8f6d9",

@@ -30,6 +30,7 @@ const Introduction = styled.div`
   background-color: ${colors.background.lightBrown};
   color: ${colors.police.title};
   padding: 50px 5%;
+  padding-bottom: 80px;
 `;
 const Title2 = styled.h2`
   margin-top: 0px;
@@ -55,13 +56,18 @@ export default function HomePage() {
           La nature et les animaux ont beaucoup à nous apporter. Rhizoome est
           une entreprise innovante, basée à Jouy le Moutier (95) alliant
           sensibilisation à l’environnement et relation d’aide médiatisée par
-          l’animal et la nature. Nous nous déplaçons dans votre structure, avec
+          l’animal et la nature. Nous intervenons pour différents publics, avec
           ou sans animaux, pour des interventions ludiques, pédagogiques ou
           thérapeutiques, adaptées au public, modulables et diversifiées!
         </BodyText>
       </Introduction>
       <ActivityFrames />
-      <TeamPart />
+      <TeamPart title="Venez rencontrer l’équipe d’animation !">
+        Je suis Florine DAVI, animatrice nature et intervenante en médiation
+        animale. Mes animaux vivent avec moi au sein de mon foyer. Ils sont
+        éduqués et préparés aux séances. Le suivi vétérinaire est rigoureusement
+        respecté et tous les vaccins et contrôles sont à jour.
+      </TeamPart>
     </StyledHomePage>
   );
 }

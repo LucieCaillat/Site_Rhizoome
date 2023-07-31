@@ -13,6 +13,7 @@ const HeaderDiv = styled.nav`
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 100;
 `;
 const Logo = styled(Link)`
   margin-left: 2%;

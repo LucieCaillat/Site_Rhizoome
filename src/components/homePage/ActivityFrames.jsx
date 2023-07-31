@@ -8,11 +8,12 @@ const Div = styled.div`
   justify-content: space-evenly;
   width: 100%;
   background-color: white;
+  margin-bottom: 80px;
 `;
 
 const Frame = styled.div`
   position: relative;
-  top: -30px;
+  top: -50px;
   display: flex;
   flex-direction: column;
   align-items: center;
