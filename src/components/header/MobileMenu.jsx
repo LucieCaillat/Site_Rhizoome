@@ -28,7 +28,7 @@ export default function MobileMenu() {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: ${colors.background.header};
+    background-color: ${colors.background.offWhite};
     z-index: 1000;
     & i.fa-times {
       position: fixed;

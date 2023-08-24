@@ -1,6 +1,7 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
 import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
 import HomePage from "../pages/HomePage";
 import AnimationNature from "../pages/activités/AnimationNature";
 import AutourDuChien from "../pages/activités/AutourDuChien";
@@ -24,6 +25,7 @@ export default function RoutesApp() {
         <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/Tarifs" element={<Tarifs />} />
       </Routes>
+      <Footer />
     </React.Fragment>
   );
 }

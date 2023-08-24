@@ -1,6 +1,6 @@
 const colors = {
   background: {
-    header: "#fff7e9",
+    offWhite: "#fff7e9",
     footer: "#704111",
     green: "#87bd28",
     lightBrown: "#af7634",
@@ -12,6 +12,7 @@ const colors = {
     subtitle: "#87bd28",
     nav: "#55604d",
     activeNav: "#af7634",
+    footer: "#c79f72",
     cream: "#ffe6ba",
   },
 };

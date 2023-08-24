@@ -19,7 +19,7 @@ export default function PullDownMenu({ name, listLink }) {
   const StyledPullDownMenu = styled.ul`
     display: ${isOpen ? "block" : "none"};
     position: absolute;
-    background: ${colors.background.header};
+    background: ${colors.background.offWhite};
     padding: 5px;
     border-radius: 2px;
     z-index: 100;

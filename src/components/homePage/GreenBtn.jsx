@@ -9,6 +9,7 @@ const Button = styled.button`
   font-weight: bold;
   font-size: ${fontSize.greenBtn};
   border: none;
+  cursor: pointer;
 `;
 
 export default function GreenBtn({ children, url }) {

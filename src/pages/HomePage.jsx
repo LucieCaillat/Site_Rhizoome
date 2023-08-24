@@ -4,6 +4,7 @@ import fontSize from "../utils/style/fontSize";
 import Carousel from "../components/homePage/Carousel";
 import ActivityFrames from "../components/homePage/ActivityFrames";
 import TeamPart from "../components/homePage/TeamPart";
+import BeforeFooter from "../components/footer/BeforeFooter";
 
 const StyledHomePage = styled.div`
   display: flex;
@@ -68,6 +69,7 @@ export default function HomePage() {
         éduqués et préparés aux séances. Le suivi vétérinaire est rigoureusement
         respecté et tous les vaccins et contrôles sont à jour.
       </TeamPart>
+      <BeforeFooter />
     </StyledHomePage>
   );
 }
