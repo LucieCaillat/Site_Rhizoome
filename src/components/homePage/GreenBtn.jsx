@@ -8,6 +8,7 @@ const Button = styled.button`
   color: ${colors.police.cream};
   font-weight: bold;
   font-size: ${fontSize.greenBtn};
+  padding: 20px;
   border: none;
   cursor: pointer;
 `;
