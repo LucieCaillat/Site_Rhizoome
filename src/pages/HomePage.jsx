@@ -25,6 +25,18 @@ const Title = styled.h1`
     color: ${colors.police.subtitle};
     font-size: ${fontSize.subtitle};
   }
+  @media screen and (max-width: 880px) {
+    font-size: ${fontSize.titleM};
+    & span {
+      font-size: ${fontSize.subtitleM};
+    }
+  }
+  @media screen and (max-width: 450px) {
+    font-size: ${fontSize.titleS};
+    & span {
+      font-size: ${fontSize.subtitleS};
+    }
+  }
 `;
 
 const Introduction = styled.div`

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 import colors from "../../utils/style/colors";
 import fontSize from "../../utils/style/fontSize";
-import { Link } from "react-router-dom";
 import logo from "../../assets/logo.png";
 import GreenBtn from "../homePage/GreenBtn";
 
@@ -13,13 +12,22 @@ const StyledBeforeFooter = styled.section`
   background-color: ${colors.background.offWhite};
   padding: 200px 0 70px;
   & img {
-    width: 770px;
+    width: 90vw;
+    max-width: 770px;
   }
   & p {
     font-size: ${fontSize.title2};
     margin: 10px 0 30px;
     font-weight: bold;
     color: ${colors.background.footer};
+    text-align: center;
+  }
+  @media screen and (max-width: 880px) {
+    padding-top: 100px;
+    & p {
+      width: 90vw;
+      font-size: ${fontSize.activityFrames};
+    }
   }
 `;
 

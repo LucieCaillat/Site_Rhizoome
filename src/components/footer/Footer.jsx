@@ -48,6 +48,25 @@ const StyledFooter = styled.footer`
     display: flex;
     justify-content: end;
   }
+  @media screen and (max-width: 1300px) {
+    height: 200px;
+    & #footer-title {
+      display: none;
+    }
+    & #footer-legal-mention {
+      font-size: ${fontSize.xxS};
+    }
+  }
+  @media screen and (max-width: 580px) {
+    height: 200px;
+    font-size: ${fontSize.bodyTextS};
+    & #footer-title {
+      display: none;
+    }
+    & #footer-legal-mention {
+      font-size: ${fontSize.xxS};
+    }
+  }
 `;
 
 export default function Footer() {

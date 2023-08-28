@@ -33,6 +33,18 @@ export default function DropdownMobileMenu({ name, listLink, action }) {
     & .fa-chevron-down {
       display: ${isOpen ? "inline" : "none"};
     }
+    @media only screen and (max-width: 450px) {
+      font-size: ${fontSize.mobileNavM};
+      & i {
+        font-size: 35px;
+      }
+    }
+    @media only screen and (max-width: 340px) {
+      font-size: ${fontSize.mobileNavS};
+      & i {
+        font-size: 25px;
+      }
+    }
   `;
 
   const StyledPullDownMenu = styled.ul`

@@ -17,11 +17,13 @@ const HeaderDiv = styled.nav`
 `;
 const Logo = styled(Link)`
   margin-left: 2%;
+  width: 300px;
   & img {
-    width: 300px;
-    @media only screen and (max-width: 1050px) {
-      width: 250px;
-    }
+    width: 100%;
+  }
+  @media only screen and (max-width: 1050px) {
+    width: 50%;
+    max-width: 250px;
   }
 `;
 const List = styled.ul`

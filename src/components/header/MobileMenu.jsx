@@ -16,7 +16,7 @@ export default function MobileMenu() {
   `;
 
   const HamburgerButton = styled.i`
-    font-size: 50px;
+    font-size: 40px;
     color: ${colors.police.nav};
   `;
   const MobileNav = styled.div`
@@ -53,8 +53,15 @@ export default function MobileMenu() {
     color: ${colors.police.nav};
     font-weight: bold;
     font-size: ${fontSize.mobileNav};
+    text-align: center;
     &:hover {
       filter: brightness(0.5);
+    }
+    @media only screen and (max-width: 450px) {
+      font-size: ${fontSize.mobileNavM};
+    }
+    @media only screen and (max-width: 340px) {
+      font-size: ${fontSize.mobileNavS};
     }
   `;
 
