@@ -5,12 +5,17 @@ import fontSize from "../../utils/style/fontSize";
 
 const Button = styled.button`
   background-color: ${colors.background.green};
-  color: ${colors.police.cream};
+  color: ${colors.background.offWhite};
   font-weight: bold;
   font-size: ${fontSize.greenBtn};
-  padding: 20px;
+  padding: 13px;
   border: none;
   cursor: pointer;
+  transform: scale(1);
+  transition: transform 450ms;
+  &:hover {
+    transform: scale(1.1);
+  }
 `;
 
 export default function GreenBtn({ children, url }) {

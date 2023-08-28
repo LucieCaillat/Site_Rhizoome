@@ -50,17 +50,17 @@ export default function RoundImageLink({ title, img, url, size }) {
         height: ${minSize};
       }
       @media screen and (max-width: 880px) {
-        width: 80vw;
-        height: 80vw;
+        width: 65vw;
+        height: 65vw;
         & img {
-          width: 80vw;
-          height: 80vw;
-          border-radius: 80vw;
+          width: 65vw;
+          height: 65vw;
+          border-radius: 65vw;
         }
         & .on_hover {
-          width: 80vw;
-          height: 80vw;
-          border-radius: 80vw;
+          width: 65vw;
+          height: 65vw;
+          border-radius: 65vw;
         }
       }
     }

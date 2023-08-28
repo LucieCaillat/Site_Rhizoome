@@ -8,7 +8,12 @@ const Div = styled.div`
   justify-content: space-evenly;
   width: 100%;
   background-color: white;
-  margin-bottom: 80px;
+  margin-bottom: 30px;
+  @media screen and (max-width: 990px) {
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 0px;
+  }
 `;
 
 const Frame = styled.div`
@@ -18,22 +23,34 @@ const Frame = styled.div`
   flex-direction: column;
   align-items: center;
   width: 25%;
-  height: 200px;
-  background-color: ${colors.background.cream};
+  min-width: 300px;
   & p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 230px;
+    padding-bottom: 40px;
     text-align: center;
-    position: relative;
-    bottom: 30px;
+    font-weight: bold;
     color: ${colors.police.nav};
     font-size: ${fontSize.activityFrames};
     margin: 0;
+    background-color: ${colors.background.cream};
     & span {
-      font-size: ${fontSize.bodyText};
+      font-size: 27px;
     }
   }
   & button {
     position: relative;
-    top: 180px;
+    top: -25px;
+  }
+  @media screen and (max-width: 990px) {
+    width: 70%;
+    & p {
+      height: 300px;
+    }
   }
 `;
 
@@ -41,29 +58,29 @@ export default function ActivityFrames() {
   return (
     <Div>
       <Frame>
-        <GreenBtn url="/AnimationNature">DÉCOUVRIR</GreenBtn>
         <p>
           Animation
           <br />
           nature
         </p>
+        <GreenBtn url="/AnimationNature">DÉCOUVRIR</GreenBtn>
       </Frame>
       <Frame>
-        <GreenBtn url="/AutourDuChien">DÉCOUVRIR</GreenBtn>
         <p>
           Autour
           <br />
           du chien <br />
           <span>PECCRAM & LAC</span>
         </p>
+        <GreenBtn url="/AutourDuChien">DÉCOUVRIR</GreenBtn>
       </Frame>
       <Frame>
-        <GreenBtn url="/MediationAnimal">DÉCOUVRIR</GreenBtn>
         <p>
           Médiation
           <br />
           par l'animal
         </p>
+        <GreenBtn url="/MediationAnimal">DÉCOUVRIR</GreenBtn>
       </Frame>
     </Div>
   );

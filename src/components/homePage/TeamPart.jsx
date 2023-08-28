@@ -49,7 +49,7 @@ const Div = styled.div`
     @media screen and (max-width: 880px) {
       flex-direction: column;
       align-items: center;
-      gap: 10px;
+      gap: 30px;
       height: auto;
       width: 100%;
       background: linear-gradient(

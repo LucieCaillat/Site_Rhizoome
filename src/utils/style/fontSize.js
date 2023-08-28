@@ -5,7 +5,7 @@ const fontSize = {
   subtitle: "45px",
   title2: "45px",
   bodyText: "30px",
-  activityFrames: "45px",
+  activityFrames: "40px",
   greenBtn: "30px",
 };
 
