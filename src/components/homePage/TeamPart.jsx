@@ -9,7 +9,7 @@ import imgPoules from "../../assets/les_poules.jpg";
 import imgLapins from "../../assets/les_lapins.jpg";
 import imgCochonDInde from "../../assets/les_cochons_d_inde.jpg";
 
-const petRoundImageSize = "250px";
+const petRoundImageSize = "250";
 
 const Div = styled.div`
   position: relative;
@@ -29,12 +29,34 @@ const Div = styled.div`
     & .text {
       width: 60%;
     }
+    @media screen and (max-width: 880px) {
+      flex-direction: column-reverse;
+      & .text {
+        width: 100%;
+        padding: 5%;
+        text-align: center;
+      }
+    }
   }
   & .pet {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     width: 90%;
     height: 100px;
+    @media screen and (max-width: 1450px) {
+      width: 99%;
+    }
+    @media screen and (max-width: 880px) {
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      height: auto;
+      width: 100%;
+      background: linear-gradient(
+        ${colors.background.green},
+        ${colors.background.offWhite}
+      );
+    }
   }
 `;
 
@@ -43,7 +65,7 @@ export default function TeamPart({ children, title }) {
     <Div>
       <div className="body">
         <RoundImageLink
-          size="500px"
+          size="500"
           img={imgFlorine}
           url="/QuiSommeNous"
           title="MON PARCOURS"

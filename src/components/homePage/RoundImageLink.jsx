@@ -4,6 +4,8 @@ import fontSize from "../../utils/style/fontSize";
 import { Link } from "react-router-dom";
 
 export default function RoundImageLink({ title, img, url, size }) {
+  const minSize = size * 0.7 + "px";
+  size = size + "px";
   const StyledLink = styled(Link)`
     position: relative;
     display: block;
@@ -35,6 +37,32 @@ export default function RoundImageLink({ title, img, url, size }) {
     }
     &:hover .on_hover {
       opacity: 1;
+    }
+    @media screen and (max-width: 1450px) {
+      width: ${minSize};
+      height: ${minSize};
+      & img {
+        width: ${minSize};
+        height: ${minSize};
+      }
+      & .on_hover {
+        width: ${minSize};
+        height: ${minSize};
+      }
+      @media screen and (max-width: 880px) {
+        width: 80vw;
+        height: 80vw;
+        & img {
+          width: 80vw;
+          height: 80vw;
+          border-radius: 80vw;
+        }
+        & .on_hover {
+          width: 80vw;
+          height: 80vw;
+          border-radius: 80vw;
+        }
+      }
     }
   `;
   return (
