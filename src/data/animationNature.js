@@ -1,7 +1,7 @@
 import poule from "../assets/les_poules.jpg";
 
 const listAnimation = {
-  autourDeLaFerme: [
+  autourDeLaNature: [
     {
       title: "Les petites bêtes",
       description:
@@ -12,6 +12,7 @@ const listAnimation = {
         "Comprendre le rôle écologique des macro-invertébrés",
         "Aménager des abris pour la faune auxiliaire",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -20,6 +21,7 @@ const listAnimation = {
         "Lors d’une balade nature sur un site défini, les participants apprendront à observer et reconnaître les plantes et arbres présents. Pour les plus petits, une chasse au trésors peut être organisée pour rendre ce moment encore plus ludique ! ",
       img: poule,
       goals: ["Découvrir quelques arbres et plantes"],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -32,6 +34,7 @@ const listAnimation = {
         "Découvrir le rôle des arbres",
         "Découvrir le cycle de vie des arbres",
       ],
+      tags: ["CENTRE DE LOISIRS", "ÉCOLES"],
     },
 
     {
@@ -44,6 +47,7 @@ const listAnimation = {
         "Reconnaître quelques oiseaux et comprendre leur cycle de vie",
         "Apprendre à les observer et les protéger",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -57,6 +61,7 @@ const listAnimation = {
         "Reconnaître les indices de leur présence et leurs traces",
         "Découvrir les concepts de chaînes alimentaires et de biodiversité",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -68,6 +73,7 @@ const listAnimation = {
         "Réaliser et créer des objets/ jeux ou œuvres à partir d’éléments collectés dans la nature",
         "Développer son imagination",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -79,10 +85,11 @@ const listAnimation = {
         "Reconnaître un insecte",
         "Faire un inventaire non exhaustif de la faune et de la flore de la mare",
       ],
+      tags: ["CENTRE DE LOISIRS", "ÉCOLES"],
     },
   ],
 
-  autourDeLaNature: [
+  autourDeLaFerme: [
     {
       title: "Découverte des animaux",
       description:
@@ -93,6 +100,7 @@ const listAnimation = {
         "Pour chaque animal, connaître : son alimentation, son milieu de vie, son utilité, ses principales caractéristiques physiques",
         "Comprendre le cycle de reproduction en nommant le mâle, la femelle et le petit",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -107,6 +115,7 @@ const listAnimation = {
         "Apprendre le cycle de vie de la poule",
         "Comprendre le mode de reproduction ovipare",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -118,6 +127,7 @@ const listAnimation = {
         "Acquérir le vocabulaire lié aux moutons et à la laine",
         "Identifier les différentes étapes du cycle de transformation de la laine ",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
 
     {
@@ -130,6 +140,7 @@ const listAnimation = {
         "Comprendre les procédés de transformation du lait : de la traite aux produits laitiers",
         "Expérimenter la fabrication de fromage et de beurre",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
   ],
 
@@ -144,6 +155,7 @@ const listAnimation = {
         "Comprendre l'intérêt de l'alimentation",
         "Connaître les différentes catégories d'aliments",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
     {
       title: "Fruits et légumes de saison",
@@ -154,17 +166,12 @@ const listAnimation = {
         "Découverte des fruits et légumes et de la notion de saisonnalité",
         "Sensibiliser aux cycles des plantes du potager",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
     {
       title: "Crêpe party",
       description:
         "Quels sont les différentes catégories d'aliments, d'où viennent-ils et comment les fabrique-t'on ? Autant de questions qui trouveront leurs réponses à l'aide de petits jeux et de la réalisation de crêpes que les participants prendront plaisir à déguster. Pour finir nous nous interrogerons sur le devenir de tous les déchets produits lors de l'atelier.",
-      img: poule,
-      goals: [],
-    },
-    {
-      title: "",
-      description: "",
       img: poule,
       goals: [
         "Identifier le produit brut dont sont issus les aliments",
@@ -172,7 +179,9 @@ const listAnimation = {
         "Comprendre le procédé de fabrication de certains aliments",
         "Réaliser une recette simple et partager un goûter",
       ],
+      tags: ["ADAPTABLE TOUS PUBLIC"],
     },
+
     {
       title: "La seconde vie de nos déchets,",
       description:
@@ -183,6 +192,18 @@ const listAnimation = {
         "Appréhender le cycle des déchets, les différentes matières",
         "Prendre conscience de la possibilité de réduire la quantité de nos déchets à travers nos choix de consommation",
       ],
+      tags: ["CENTRE DE LOISIRS", "ÉCOLES"],
+    },
+    {
+      title: "Animation écogestes",
+      description:
+        "Au travers d’activités ludiques en équipe, les participants découvrent les différents écogestes à adopter pour préserver notre planète !",
+      img: poule,
+      goals: [
+        "Sensibiliser aux économies d’énergies",
+        "Découvrir des écogestes facile à mettre en œuvre dans son quotidien",
+      ],
+      tags: ["CENTRE DE LOISIRS", "ÉCOLES"],
     },
   ],
 };

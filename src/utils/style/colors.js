@@ -1,4 +1,6 @@
 const colors = {
+  offWhite: "#fff7e9",
+  cream: "#ffe6ba",
   background: {
     offWhite: "#fff7e9",
     footer: "#704111",

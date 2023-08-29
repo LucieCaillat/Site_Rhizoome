@@ -14,7 +14,7 @@ const fontSize = {
   bodyTextS: "20px",
   activityFrames: "40px",
   greenBtn: "30px",
-
+  tag: "17px",
   xxS: "12px",
 };
 
