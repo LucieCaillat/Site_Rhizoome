@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import colors from "../../utils/style/colors";
-import fontSize from "../../utils/style/fontSize";
+import motif from "../../assets/motif-test.jpg";
 
 export const Cover = styled.img`
   display: block;
@@ -12,4 +12,22 @@ export const Introduction = styled.section`
   width: 100%;
   padding: 50px 5% 80px;
   background-color: ${colors.green};
+`;
+
+export const AnimationContainer = styled.div`
+  background-image: url(${motif});
+  background-repeat: repeat;
+  width: 100%;
+`;
+export const TypeAnimationContainer = styled.div`
+  width: 100%;
+  padding: 50px 0;
+  background-color: ${({ color }) => (color ? color : "")};
+  & p {
+    text-align: center;
+  }
+  & h2 {
+    text-align: center;
+    margin-bottom: 50px;
+  }
 `;

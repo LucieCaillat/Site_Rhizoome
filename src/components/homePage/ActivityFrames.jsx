@@ -24,6 +24,7 @@ const Frame = styled.div`
   align-items: center;
   width: 25%;
   min-width: 300px;
+  max-width: 500px;
   & p {
     display: flex;
     flex-direction: column;

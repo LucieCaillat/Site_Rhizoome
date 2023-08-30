@@ -42,6 +42,7 @@ const Div = styled.div`
     display: flex;
     justify-content: space-between;
     width: 90%;
+    max-width: 2000px;
     height: 100px;
     @media screen and (max-width: 1450px) {
       width: 99%;

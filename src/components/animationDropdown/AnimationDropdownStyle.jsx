@@ -21,7 +21,8 @@ export const Hat = styled.div`
   margin: 0;
   padding: 4px 1%;
   padding-bottom: ${({ isOpen }) => (isOpen ? "24px" : "0")};
-  background-color: ${({ color, isOpen }) => (isOpen ? color : "#F7EFE0")};
+  background-color: ${({ color, isOpen }) =>
+    isOpen ? color : "rgba(247, 239, 224, 0.9)"};
   color: ${({ isOpen }) => (isOpen ? colors.police.cream : colors.police.nav)};
   font-size: ${fontSize.title2};
   line-height: 41px;

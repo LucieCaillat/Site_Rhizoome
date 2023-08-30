@@ -1,9 +1,13 @@
 const colors = {
+  darkGray: "#55604d",
   offWhite: "#fff7e9",
   cream: "#ffe6ba",
   green: "#87bd28",
   darkBrown: "#704111",
   lightBrown: "#af7634",
+  translucentOrange: "rgba(255,247,233, 0.9)",
+  translucentGreen: "rgba(243,245,235, 0.9)",
+  translucentYellow: "rgba(251,250,232, 0.9)",
 
   background: {
     offWhite: "#fff7e9",
