@@ -35,10 +35,10 @@ const Frame = styled.div`
     padding-bottom: 40px;
     text-align: center;
     font-weight: bold;
-    color: ${colors.police.nav};
+    color: ${colors.darkGray};
     font-size: ${fontSize.activityFrames};
     margin: 0;
-    background-color: ${colors.background.cream};
+    background-color: ${colors.cream};
     & span {
       font-size: 27px;
     }

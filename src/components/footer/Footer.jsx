@@ -10,8 +10,8 @@ const StyledFooter = styled.footer`
   width: 100%;
   height: 250px;
   padding: 0px 5% 50px;
-  background-color: ${colors.background.footer};
-  color: ${colors.police.footer};
+  background-color: ${colors.darkBrown};
+  color: ${colors.lightGrayBrown};
   font-size: ${fontSize.nav};
   font-weight: bold;
   & div {
@@ -24,10 +24,10 @@ const StyledFooter = styled.footer`
   & #footer-contact {
     line-height: 1.6rem;
     & span {
-      color: ${colors.police.cream};
+      color: ${colors.cream};
     }
     & .link {
-      color: ${colors.police.footer};
+      color: ${colors.lightGrayBrown};
       text-decoration: none;
       &:hover {
         text-decoration: underline;
@@ -38,10 +38,10 @@ const StyledFooter = styled.footer`
     margin: 0;
     font-size: ${fontSize.title2};
     text-align: center;
-    color: ${colors.police.cream};
+    color: ${colors.cream};
     line-height: 3rem;
     & span {
-      color: ${colors.background.green};
+      color: ${colors.green};
     }
   }
   & #footer-legal-mention {

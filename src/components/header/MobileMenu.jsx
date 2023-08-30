@@ -17,7 +17,7 @@ export default function MobileMenu() {
 
   const HamburgerButton = styled.i`
     font-size: 40px;
-    color: ${colors.police.nav};
+    color: ${colors.darkGray};
   `;
   const MobileNav = styled.div`
     display: ${isOpen ? "flex" : "none"};
@@ -28,14 +28,14 @@ export default function MobileMenu() {
     left: 0;
     bottom: 0;
     right: 0;
-    background-color: ${colors.background.offWhite};
+    background-color: ${colors.offWhite};
     z-index: 1000;
     & i.fa-times {
       position: fixed;
       top: 20px;
       right: 20px;
       font-size: 50px;
-      color: ${colors.police.nav};
+      color: ${colors.darkGray};
     }
     & ul.mobile-menu-list {
       padding: 0;
@@ -50,7 +50,7 @@ export default function MobileMenu() {
   `;
   const MobileNavLink = styled(Link)`
     text-decoration: none;
-    color: ${colors.police.nav};
+    color: ${colors.darkGray};
     font-weight: bold;
     font-size: ${fontSize.mobileNav};
     text-align: center;

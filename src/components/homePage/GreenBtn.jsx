@@ -4,8 +4,8 @@ import { Link } from "react-router-dom";
 import fontSize from "../../utils/style/fontSize";
 
 const Button = styled.button`
-  background-color: ${colors.background.green};
-  color: ${colors.background.offWhite};
+  background-color: ${colors.green};
+  color: ${colors.offWhite};
   font-weight: bold;
   font-size: ${fontSize.greenBtn};
   padding: 13px;

@@ -17,8 +17,8 @@ const Div = styled.div`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: ${colors.background.green};
-  color: ${colors.police.cream};
+  background-color: ${colors.green};
+  color: ${colors.cream};
 
   & .body {
     display: flex;
@@ -53,10 +53,7 @@ const Div = styled.div`
       gap: 30px;
       height: auto;
       width: 100%;
-      background: linear-gradient(
-        ${colors.background.green},
-        ${colors.background.offWhite}
-      );
+      background: linear-gradient(${colors.green}, ${colors.offWhite});
     }
   }
 `;

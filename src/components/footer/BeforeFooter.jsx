@@ -9,7 +9,7 @@ const StyledBeforeFooter = styled.section`
   flex-direction: column;
   align-items: center;
   width: 100%;
-  background-color: ${colors.background.offWhite};
+  background-color: ${colors.offWhite};
   padding: 200px 0 70px;
   & img {
     width: 90vw;
@@ -19,7 +19,7 @@ const StyledBeforeFooter = styled.section`
     font-size: ${fontSize.title2};
     margin: 10px 0 30px;
     font-weight: bold;
-    color: ${colors.background.footer};
+    color: ${colors.darkBrown};
     text-align: center;
   }
   @media screen and (max-width: 880px) {

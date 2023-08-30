@@ -10,12 +10,9 @@ import {
 } from "./AnimationDropdownStyle";
 import { BodyText, Title3 } from "../../globalStyle";
 import Tag from "../tag/Tag";
+import colors from "../../utils/style/colors";
 
-const AnimationTopicColors = {
-  autourDeLaFerme: ["	#935D26", "#AF7634"],
-  autourDeLaNature: ["#66A316", "#87BD28"],
-  autourDuDD: ["#CF3D02", "#E95C13"],
-};
+const AnimationTopicColors = colors.animationTopicColors;
 
 export default function AnimationDropdown({
   title,
@@ -31,7 +28,7 @@ export default function AnimationDropdown({
   const descriptionColor = AnimationTopicColors[topic][1];
 
   return (
-    <AnimationDropdownContainer>
+    <AnimationDropdownContainer isOpen={isOpen}>
       <Hat isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} color={hatColor}>
         <Title3>{title}</Title3>
         <i className="fas fa-chevron-up"></i>

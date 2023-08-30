@@ -11,7 +11,7 @@ export const AnimationDropdownContainer = styled.section`
   width: 90%;
   max-width: 1600px;
   margin: auto;
-  margin-bottom: 20px;
+  margin-bottom: ${({ isOpen }) => (isOpen ? "80px" : "20px")};
 `;
 // HAT
 export const Hat = styled.div`
@@ -22,8 +22,8 @@ export const Hat = styled.div`
   padding: 4px 1%;
   padding-bottom: ${({ isOpen }) => (isOpen ? "24px" : "0")};
   background-color: ${({ color, isOpen }) =>
-    isOpen ? color : "rgba(247, 239, 224, 0.9)"};
-  color: ${({ isOpen }) => (isOpen ? colors.police.cream : colors.police.nav)};
+    isOpen ? color : colors.translucentGray};
+  color: ${({ isOpen }) => (isOpen ? colors.offWhite : colors.darkGray)};
   font-size: ${fontSize.title2};
   line-height: 41px;
   @media screen and (max-width: 1300px) {
@@ -116,7 +116,7 @@ export const Goals = styled.div`
   height: ${lowerPartHeight[0] - 50 + "px"};
   margin: 0px;
   padding: 10px 0px;
-  color: ${colors.background.footer};
+  color: ${colors.darkBrown};
   font-size: ${fontSize.smallBodyText};
   & ul {
     margin: 0;

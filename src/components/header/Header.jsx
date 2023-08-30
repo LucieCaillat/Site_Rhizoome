@@ -9,7 +9,7 @@ import MobileMenu from "./MobileMenu";
 const HeaderDiv = styled.nav`
   width: 100%;
   height: 15vh;
-  background: ${colors.background.header};
+  background: ${colors.offWhite};
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -33,7 +33,7 @@ const List = styled.ul`
   font-size: ${fontSize.nav};
   padding: 0;
   margin-right: 5%;
-  color: ${colors.police.nav};
+  color: ${colors.darkGray};
   & li {
     list-style-type: none;
   }
@@ -49,7 +49,7 @@ const List = styled.ul`
 
 const NavLink = styled(Link)`
   text-decoration: none;
-  color: ${colors.police.nav};
+  color: ${colors.darkGray};
   font-weight: bold;
   &:hover {
     filter: brightness(0.5);

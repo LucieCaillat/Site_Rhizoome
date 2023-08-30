@@ -14,14 +14,14 @@ export default function DropdownMobileMenu({ name, listLink, action }) {
   `;
   const MobileMenuLink = styled(Link)`
     text-decoration: none;
-    color: ${colors.police.nav};
+    color: ${colors.darkGray};
     font-size: ${fontSize.mobileNav};
     font-weight: bold;
     &:hover {
       filter: brightness(0.5);
     }
     &.title {
-      color: ${isOpen ? colors.police.subtitle : ""};
+      color: ${isOpen ? colors.green : ""};
     }
     & i {
       font-size: 45px;

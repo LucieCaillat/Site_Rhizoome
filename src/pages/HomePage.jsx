@@ -17,12 +17,12 @@ const Title = styled.h1`
   left: 5%;
   height: 0px;
   margin: 0px;
-  color: ${colors.police.title};
+  color: ${colors.offWhite};
   font-size: ${fontSize.title};
   padding: 0;
   & span {
     display: block;
-    color: ${colors.police.subtitle};
+    color: ${colors.green};
     font-size: ${fontSize.subtitle};
   }
   @media screen and (max-width: 880px) {
@@ -40,8 +40,8 @@ const Title = styled.h1`
 `;
 
 const Introduction = styled.div`
-  background-color: ${colors.background.lightBrown};
-  color: ${colors.police.title};
+  background-color: ${colors.lightBrown};
+  color: ${colors.offWhite};
   padding: 50px 5% 80px;
 `;
 const Title2 = styled.h2`

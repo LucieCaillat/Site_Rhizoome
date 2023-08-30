@@ -28,10 +28,10 @@ export default function RoundImageLink({ title, img, url, size }) {
       height: ${size};
       border-radius: ${size};
       text-align: center;
-      color: ${colors.police.cream};
+      color: ${colors.cream};
       font-weight: bold;
       font-size: ${fontSize.greenBtn};
-      background-color: ${colors.background.roundImageLink};
+      background-color: ${colors.roundImageLink};
       opacity: 0;
       transition: opacity 500ms;
     }
