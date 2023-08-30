@@ -1,6 +1,10 @@
 const colors = {
   offWhite: "#fff7e9",
   cream: "#ffe6ba",
+  green: "#87bd28",
+  darkBrown: "#704111",
+  lightBrown: "#af7634",
+
   background: {
     offWhite: "#fff7e9",
     footer: "#704111",

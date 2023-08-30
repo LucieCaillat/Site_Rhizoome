@@ -42,8 +42,7 @@ const Title = styled.h1`
 const Introduction = styled.div`
   background-color: ${colors.background.lightBrown};
   color: ${colors.police.title};
-  padding: 50px 5%;
-  padding-bottom: 80px;
+  padding: 50px 5% 80px;
 `;
 const Title2 = styled.h2`
   margin-top: 0px;

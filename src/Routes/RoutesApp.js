@@ -3,13 +3,13 @@ import { Routes, Route } from "react-router-dom";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import HomePage from "../pages/HomePage";
-import AnimationNature from "../pages/activités/AnimationNature";
-import AutourDuChien from "../pages/activités/AutourDuChien";
-import MediationAnimal from "../pages/activités/MediationAnimal";
+import AnimationNature from "../pages/animationNature/AnimationNature";
+import AutourDuChien from "../pages/autourDuChien/AutourDuChien";
+import MediationAnimal from "../pages/MediationAnimal";
 import QuiSommeNous from "../pages/QuiSommeNous";
-import LesPublics from "../pages/infosPratiques/LesPublics";
-import Contact from "../pages/infosPratiques/Contact";
-import Tarifs from "../pages/infosPratiques/Tarifs";
+import LesPublics from "../pages/LesPublics";
+import Contact from "../pages/Contact";
+import Tarifs from "../pages/Tarifs";
 
 export default function RoutesApp() {
   return (

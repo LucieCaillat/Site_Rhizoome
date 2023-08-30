@@ -28,6 +28,20 @@ export const BodyText = styled.p`
   }
 `;
 
+export const Titre1 = styled.h1`
+  margin: 0 0 20px;
+  font-size: ${fontSize.title1};
+  color: ${({ color }) => (color ? color : "")};
+  @media screen and (max-width: ${screenSizeM}) {
+    font-size: ${fontSize.title1M};
+  }
+  @media screen and (max-width: ${screenSizeS}) {
+    text-align: center;
+    font-size: ${fontSize.title1S};
+    line-height: ${fontSize.title2};
+  }
+`;
+
 export const Title3 = styled.h3`
   margin: 0;
   font-size: ${fontSize.title3};
