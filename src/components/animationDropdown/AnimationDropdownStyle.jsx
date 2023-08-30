@@ -2,10 +2,15 @@ import styled from "styled-components";
 import colors from "../../utils/style/colors";
 import fontSize from "../../utils/style/fontSize";
 
+const textWidth = [60, 70, 100];
+const imgHeight = [460, 380];
+const lowerPartHeight = [250, 270];
+const screenSize = ["1600px", "900px"];
+
 export const AnimationDropdownContainer = styled.section`
-  width: 80%;
+  width: 90%;
+  max-width: 1600px;
   margin: auto;
-  font-weight: bold;
   margin-bottom: 20px;
 `;
 // HAT
@@ -20,6 +25,13 @@ export const Hat = styled.div`
   color: ${({ isOpen }) => (isOpen ? colors.police.cream : colors.police.nav)};
   font-size: ${fontSize.title2};
   line-height: 41px;
+  @media screen and (max-width: 1300px) {
+    font-size: ${fontSize.title3M};
+    line-height: auto;
+  }
+  @media screen and (max-width: 900px) {
+    font-size: ${fontSize.title3S};
+  }
   & h3 {
     margin: 0;
   }
@@ -40,47 +52,86 @@ export const Description = styled.div`
   display: flex;
   justify-content: ${({ isLeftSide }) =>
     isLeftSide ? "flex-start" : "flex-end"};
-
-  min-height: 13vw;
+  min-height: ${imgHeight[0] - lowerPartHeight[0] + 25 + "px"};
   background-color: ${({ color }) => (color ? color : "")};
   & p {
-    width: 60%;
-    margin: 0;
+    width: ${textWidth[0] + "%"};
     padding: 20px;
-    color: ${colors.police.cream};
-    font-size: ${fontSize.bodyText};
-    text-align: justify;
+  }
+  @media screen and (max-width: ${screenSize[0]}) {
+    min-height: ${imgHeight[1] - lowerPartHeight[1] + 25 + "px"};
+    & p {
+      width: ${textWidth[1] + "%"};
+    }
+  }
+  @media screen and (max-width: ${screenSize[1]}) {
+    min-height: auto;
+    & p {
+      width: ${textWidth[2] + "%"};
+    }
   }
 `;
 // LOWERPART IMG + GOALS + TAG BOX
 export const LowerPart = styled.div`
-  height: 250px;
+  height: ${lowerPartHeight[0] + "px"};
   display: flex;
   flex-direction: ${({ isLeftSide }) => (isLeftSide ? "row-reverse" : "row")};
   justify-content: space-between;
   align-items: end;
   & img {
-    width: 40%;
-    height: 460px;
+    width: ${100 - textWidth[0] + "%"};
+    height: ${imgHeight[0] + "px"};
     object-fit: cover;
   }
   & .objectif-side {
-    width: 60%;
+    width: ${textWidth[0] + "%"};
     padding: 20px;
     padding-bottom: 0;
+  }
+  @media screen and (max-width: ${screenSize[0]}) {
+    height: ${lowerPartHeight[1] + "px"};
+    & img {
+      width: ${100 - textWidth[1] + "%"};
+      height: ${imgHeight[1] + "px"};
+    }
+    & .objectif-side {
+      width: ${textWidth[1] + "%"};
+    }
+  }
+  @media screen and (max-width: ${screenSize[1]}) {
+    height: auto;
+    & img {
+      display: none;
+    }
+    & .objectif-side {
+      width: ${textWidth[2] + "%"};
+      padding-top: 0;
+    }
   }
 `;
 // GOALS
 export const Goals = styled.div`
   width: 100%;
-  height: 200px;
+  height: ${lowerPartHeight[0] - 50 + "px"};
   margin: 0px;
   padding: 10px 0px;
   color: ${colors.background.footer};
-  font-size: 25px;
+  font-size: ${fontSize.smallBodyText};
   & ul {
     margin: 0;
     list-style: "-  ";
+  }
+  @media screen and (max-width: ${screenSize[0]}) {
+    height: ${lowerPartHeight[1] - 50 + "px"};
+  }
+  @media screen and (max-width: ${screenSize[1]}) {
+    height: auto;
+  }
+  @media screen and (max-width: 1300px) {
+    font-size: ${fontSize.smallBodyTextM};
+  }
+  @media screen and (max-width: 900px) {
+    font-size: ${fontSize.smallBodyTextS};
   }
 `;
 // TAG BOX

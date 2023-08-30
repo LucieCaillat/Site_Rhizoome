@@ -8,6 +8,7 @@ import {
   Goals,
   TagBox,
 } from "./AnimationDropdownStyle";
+import { BodyText, Title3 } from "../../globalStyle";
 import Tag from "../tag/Tag";
 
 const AnimationTopicColors = {
@@ -32,14 +33,14 @@ export default function AnimationDropdown({
   return (
     <AnimationDropdownContainer>
       <Hat isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} color={hatColor}>
-        <h3>{title}</h3>
+        <Title3>{title}</Title3>
         <i className="fas fa-chevron-up"></i>
         <i className="fas fa-chevron-down"></i>
       </Hat>
 
       <Body isOpen={isOpen}>
         <Description isLeftSide={isLeftSide} color={descriptionColor}>
-          <p>{descrition}</p>
+          <BodyText>{descrition}</BodyText>
         </Description>
 
         <LowerPart isLeftSide={isLeftSide}>
