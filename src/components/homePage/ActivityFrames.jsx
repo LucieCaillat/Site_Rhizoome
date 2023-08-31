@@ -2,6 +2,9 @@ import styled from "styled-components";
 import colors from "../../utils/style/colors";
 import fontSize from "../../utils/style/fontSize";
 import GreenBtn from "./GreenBtn";
+import fleur from "../../assets/filigrane_fleur.png";
+import pate from "../../assets/filigrane_pate.png";
+import feuille from "../../assets/filigrane_feuille.png";
 
 const Div = styled.div`
   display: flex;
@@ -9,6 +12,22 @@ const Div = styled.div`
   width: 100%;
   background-color: white;
   margin-bottom: 30px;
+  & #animation-nature {
+    background-image: url(${fleur});
+    background-repeat: no-repeat;
+    background-position-y: 20%;
+  }
+  & #autour-du-chien {
+    background-image: url(${pate});
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+  }
+  & #médiation-animal {
+    background-image: url(${feuille});
+    background-repeat: no-repeat;
+    background-position-x: 90%;
+    background-position-y: 20%;
+  }
   @media screen and (max-width: 990px) {
     flex-direction: column;
     align-items: center;
@@ -59,7 +78,7 @@ export default function ActivityFrames() {
   return (
     <Div>
       <Frame>
-        <p>
+        <p id="animation-nature">
           Animation
           <br />
           nature
@@ -67,7 +86,7 @@ export default function ActivityFrames() {
         <GreenBtn url="/AnimationNature">DÉCOUVRIR</GreenBtn>
       </Frame>
       <Frame>
-        <p>
+        <p id="autour-du-chien">
           Autour
           <br />
           du chien <br />
@@ -76,7 +95,7 @@ export default function ActivityFrames() {
         <GreenBtn url="/AutourDuChien">DÉCOUVRIR</GreenBtn>
       </Frame>
       <Frame>
-        <p>
+        <p id="médiation-animal">
           Médiation
           <br />
           par l'animal

@@ -6,10 +6,10 @@ const colors = {
   darkBrown: "#704111",
   lightBrown: "#af7634",
   lightGrayBrown: "#c79f72",
-  translucentOrange: "rgba(255,247,233, 0.9)",
-  translucentGreen: "rgba(243,245,235, 0.9)",
-  translucentYellow: "rgba(251,250,232, 0.9)",
-  translucentGray: "rgba(247, 239, 224, 0.9)",
+  translucentOrange: "rgba(255,247,233, 0.85)",
+  translucentGreen: "rgba(243,245,235, 0.85)",
+  translucentYellow: "rgba(251,250,232, 0.85)",
+  translucentGray: "rgba(247, 239, 224, 0.8)",
   roundImageLink: "rgba(175,118,52,0.8)",
 
   animationTopicColors: {

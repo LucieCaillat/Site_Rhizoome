@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import colors from "../../utils/style/colors";
-import motif from "../../assets/motif-test.jpg";
+import motif from "../../assets/motif_animation.jpg";
 
 export const Cover = styled.img`
   display: block;
@@ -16,6 +16,7 @@ export const Introduction = styled.section`
 
 export const AnimationContainer = styled.div`
   background-image: url(${motif});
+  background-size: 110%;
   background-repeat: repeat;
   width: 100%;
 `;

@@ -26,6 +26,7 @@ export const Hat = styled.div`
   color: ${({ isOpen }) => (isOpen ? colors.offWhite : colors.darkGray)};
   font-size: ${fontSize.title2};
   line-height: 41px;
+  cursor: pointer;
   @media screen and (max-width: 1300px) {
     font-size: ${fontSize.title3M};
     line-height: auto;
