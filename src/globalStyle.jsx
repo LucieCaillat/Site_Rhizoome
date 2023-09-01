@@ -78,4 +78,11 @@ export const SmallBodyText = styled.p`
   }
 `;
 
+export const Cover = styled.img`
+  display: block;
+  width: 100%;
+  height: 30vh;
+  object-fit: cover;
+`;
+
 export default GlobalStyle;

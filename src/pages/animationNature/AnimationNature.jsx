@@ -1,5 +1,5 @@
 import AnimationDropdown from "../../components/animationDropdown/AnimationDropdown";
-import listAnimation from "../../data/animationNature";
+import listAnimation from "../../data/listAnimationNature";
 import BeforeFooter from "../../components/footer/BeforeFooter";
 import {
   Cover,
