@@ -8,7 +8,7 @@ import {
   TypeAnimationContainer,
 } from "./AnimationNatureStyle";
 import coquelicot from "../../assets/carousel2.jpg";
-import { BodyText, Titre1, Title2 } from "../../globalStyle";
+import { BodyText, Title1, Title2 } from "../../globalStyle";
 import colors from "../../utils/style/colors";
 
 export default function AnimationNature() {
@@ -17,7 +17,7 @@ export default function AnimationNature() {
       <Cover src={coquelicot} alt="coquelicot" />
 
       <Introduction>
-        <Titre1 color={colors.darkBrown}>Animation nature</Titre1>
+        <Title1 color={colors.darkBrown}>Animation nature</Title1>
         <BodyText>
           En permettant une évolution des comportements, l’éducation à
           l’environnement joue un rôle crucial dans la préservation de notre
@@ -36,7 +36,7 @@ export default function AnimationNature() {
       </Introduction>
       <AnimationContainer>
         <TypeAnimationContainer color={colors.translucentOrange}>
-          <BodyText color={colors.darkBrown}>
+          <BodyText color={colors.darkBrown} className="above-title">
             Découvrez nos animations :
           </BodyText>
           <Title2>Autour de la ferme</Title2>

@@ -6,7 +6,7 @@ import HomePage from "../pages/HomePage";
 import AnimationNature from "../pages/animationNature/AnimationNature";
 import AutourDuChien from "../pages/autourDuChien/AutourDuChien";
 import MediationAnimal from "../pages/MediationAnimal";
-import QuiSommeNous from "../pages/QuiSommeNous";
+import QuiSommeNous from "../pages/quiSommeNous/QuiSommeNous";
 import LesPublics from "../pages/LesPublics";
 import Contact from "../pages/Contact";
 import Tarifs from "../pages/Tarifs";

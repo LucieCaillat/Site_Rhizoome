@@ -24,7 +24,7 @@ export const TypeAnimationContainer = styled.div`
   width: 100%;
   padding: 50px 0;
   background-color: ${({ color }) => (color ? color : "")};
-  & p {
+  & .above-title {
     text-align: center;
   }
   & h2 {

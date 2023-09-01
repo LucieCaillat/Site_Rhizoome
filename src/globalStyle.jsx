@@ -13,10 +13,11 @@ body {
   margin: 0;
   font-family: "Faune", sans-serif;
   font-weight: bold;
+  color: ${colors.darkGray};
 }
 `;
 
-export const Titre1 = styled.h1`
+export const Title1 = styled.h1`
   margin: 0 0 20px;
   font-size: ${fontSize.title1};
   color: ${({ color }) => (color ? color : "")};
@@ -62,6 +63,18 @@ export const BodyText = styled.p`
   }
   @media screen and (max-width: ${screenSizeS}) {
     font-size: ${fontSize.bodyTextS};
+  }
+`;
+
+export const SmallBodyText = styled.p`
+  margin: 0;
+  color: ${({ color }) => (color ? color : colors.offWhite)};
+  font-size: ${fontSize.smallBodyText};
+  @media screen and (max-width: ${screenSizeM}) {
+    font-size: ${fontSize.smallBodyTextM};
+  }
+  @media screen and (max-width: ${screenSizeS}) {
+    font-size: ${fontSize.smallBodyTextS};
   }
 `;
 
