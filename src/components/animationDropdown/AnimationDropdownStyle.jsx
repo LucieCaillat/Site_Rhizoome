@@ -11,7 +11,7 @@ export const AnimationDropdownContainer = styled.section`
   width: 90%;
   max-width: 1600px;
   margin: auto;
-  margin-bottom: ${({ isOpen }) => (isOpen ? "80px" : "20px")};
+  margin-bottom: ${({ open }) => (open === "yes" ? "80px" : "20px")};
 `;
 // HAT
 export const Hat = styled.div`
@@ -20,10 +20,10 @@ export const Hat = styled.div`
   align-items: center;
   margin: 0;
   padding: 4px 1%;
-  padding-bottom: ${({ isOpen }) => (isOpen ? "24px" : "0")};
-  background-color: ${({ color, isOpen }) =>
-    isOpen ? color : colors.translucentGray};
-  color: ${({ isOpen }) => (isOpen ? colors.offWhite : colors.darkGray)};
+  padding-bottom: ${({ open }) => (open === "yes" ? "24px" : "0")};
+  background-color: ${({ color, open }) =>
+    open === "yes" ? color : colors.translucentGray};
+  color: ${({ open }) => (open === "yes" ? colors.offWhite : colors.darkGray)};
   font-size: ${fontSize.title2};
   line-height: 41px;
   cursor: pointer;
@@ -38,22 +38,22 @@ export const Hat = styled.div`
     margin: 0;
   }
   & .fa-chevron-up {
-    display: ${({ isOpen }) => (isOpen ? "none" : "line")};
+    display: ${({ open }) => (open === "yes" ? "none" : "line")};
   }
   & .fa-chevron-down {
-    display: ${({ isOpen }) => (isOpen ? "line" : "none")};
+    display: ${({ open }) => (open === "yes" ? "line" : "none")};
   }
 `;
 // BODY
 export const Body = styled.div`
-  display: ${({ isOpen }) => (isOpen ? "block" : "none")};
+  display: ${({ open }) => (open === "yes" ? "block" : "none")};
   margin: 0;
 `;
 // DESCRIPTION
 export const Description = styled.div`
   display: flex;
-  justify-content: ${({ isLeftSide }) =>
-    isLeftSide ? "flex-start" : "flex-end"};
+  justify-content: ${({ orientation }) =>
+    orientation === "left" ? "flex-start" : "flex-end"};
   min-height: ${imgHeight[0] - lowerPartHeight[0] + 25 + "px"};
   background-color: ${({ color }) => (color ? color : "")};
   & p {
@@ -77,7 +77,8 @@ export const Description = styled.div`
 export const LowerPart = styled.div`
   height: ${lowerPartHeight[0] + "px"};
   display: flex;
-  flex-direction: ${({ isLeftSide }) => (isLeftSide ? "row-reverse" : "row")};
+  flex-direction: ${({ orientation }) =>
+    orientation === "left" ? "row-reverse" : "row"};
   justify-content: space-between;
   align-items: end;
   & img {

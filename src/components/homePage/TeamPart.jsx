@@ -77,31 +77,31 @@ export default function TeamPart({ children, title }) {
         <RoundImageLink
           size={petRoundImageSize}
           img={imgChiens}
-          url="/QuiSommeNous"
+          url="/QuiSommeNous#les-chiens"
           title="LES CHIENS"
         />
         <RoundImageLink
           size={petRoundImageSize}
           img={imgChevres}
-          url="/QuiSommeNous"
+          url="/QuiSommeNous#les-chèvres"
           title="LES CHÉVRES"
         />
         <RoundImageLink
           size={petRoundImageSize}
           img={imgPoules}
-          url="/QuiSommeNous"
+          url="/QuiSommeNous#les-poules"
           title="LES POULES"
         />
         <RoundImageLink
           size={petRoundImageSize}
           img={imgLapins}
-          url="/QuiSommeNous"
+          url="/QuiSommeNous#les-lapins"
           title="LES LAPINS"
         />
         <RoundImageLink
           size={petRoundImageSize}
           img={imgCochonDInde}
-          url="/QuiSommeNous"
+          url="/QuiSommeNous#les-cochon-d-inde"
           title="LES COCHONS D'INDE"
         />
       </div>

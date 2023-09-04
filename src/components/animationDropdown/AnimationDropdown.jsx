@@ -21,26 +21,30 @@ export default function AnimationDropdown({
   goals,
   tags,
   topic,
-  isLeftSide,
+  orientation,
 }) {
   const [isOpen, setIsOpen] = useState(false);
   const hatColor = AnimationTopicColors[topic][0];
   const descriptionColor = AnimationTopicColors[topic][1];
 
   return (
-    <AnimationDropdownContainer isOpen={isOpen}>
-      <Hat isOpen={isOpen} onClick={() => setIsOpen(!isOpen)} color={hatColor}>
+    <AnimationDropdownContainer open={isOpen ? "yes" : ""}>
+      <Hat
+        open={isOpen ? "yes" : ""}
+        onClick={() => setIsOpen(!isOpen)}
+        color={hatColor}
+      >
         <Title3>{title}</Title3>
         <i className="fas fa-chevron-up"></i>
         <i className="fas fa-chevron-down"></i>
       </Hat>
 
-      <Body isOpen={isOpen}>
-        <Description isLeftSide={isLeftSide} color={descriptionColor}>
+      <Body open={isOpen ? "yes" : ""}>
+        <Description orientation={orientation} color={descriptionColor}>
           <BodyText>{descrition}</BodyText>
         </Description>
 
-        <LowerPart isLeftSide={isLeftSide}>
+        <LowerPart orientation={orientation}>
           <img src={img} alt={title}></img>
 
           <div className="objectif-side">

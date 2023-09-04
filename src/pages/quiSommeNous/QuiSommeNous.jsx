@@ -11,57 +11,67 @@ export default function QuiSommeNous() {
       <Cover src={cover} alt="Qui sommes nous?" />
       <Title1>Qui sommes nous ?</Title1>
       <FlorinePresentation />
-      <Title2 className="pets-title">Les Chiens</Title2>
+      <Title2 className="pets-title" id="les-chiens">
+        Les Chiens
+      </Title2>
       {listPets.chiens.map((pet, index) => (
         <Pets
           key={pet.title}
           title={pet.title}
           img={pet.img}
           text={pet.text}
-          isLeftSide={index % 2 === 0}
+          orientation={index % 2 === 0 ? "left" : "right"}
         />
       ))}
 
-      <Title2 className="pets-title">Les Chèvres</Title2>
+      <Title2 className="pets-title" id="les-chèvres">
+        Les Chèvres
+      </Title2>
       {listPets.chevres.map((pet, index) => (
         <Pets
           key={pet.title}
           title={pet.title}
           img={pet.img}
           text={pet.text}
-          isLeftSide={index % 2 === 0}
+          orientation={index % 2 === 0 ? "left" : "right"}
         />
       ))}
 
-      <Title2 className="pets-title">Les Lapins</Title2>
+      <Title2 className="pets-title" id="les-lapins">
+        Les Lapins
+      </Title2>
       {listPets.lapins.map((pet, index) => (
         <Pets
           key={pet.title}
           img={pet.img}
           text={pet.text}
-          isLeftSide={index % 2 === 0}
+          orientation={index % 2 === 0 ? "left" : "right"}
         />
       ))}
 
-      <Title2 className="pets-title">Les Cochons d'inde</Title2>
+      <Title2 className="pets-title" id="les-cochon-d-inde">
+        Les Cochons d'inde
+      </Title2>
       {listPets.cochonsDIndes.map((pet, index) => (
         <Pets
           key={pet.title}
           title={pet.title}
           img={pet.img}
           text={pet.text}
-          isLeftSide={index % 2 === 0}
+          orientation={index % 2 === 0 ? "left" : "right"}
         />
       ))}
 
-      <Title2 className="pets-title">Les Poules</Title2>
+      <Title2 className="pets-title" id="les-poules">
+        Les Poules
+      </Title2>
       {listPets.poules.map((pet, index) => (
         <Pets
           key={pet.title}
           title={pet.title}
           img={pet.img}
           text={pet.text}
-          isLeftSide={index % 2 === 0}
+          orientation={index % 2 === 0 ? "left" : "right"}
         />
       ))}
     </QuiSommeNousContainer>

@@ -3,18 +3,25 @@ import colors from "../../utils/style/colors";
 
 export const FlorineBox = styled.section`
   display: flex;
+  justify-content: flex-end;
   gap: 30px;
   padding: 20px 30px;
-  background-color: ${colors.lightBrown};
-  margin: 0 20px;
   & .florin-box_left-part {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    gap: 20px;
+    padding: 20px;
+    gap: 30px;
+    width: 0vw;
+    z-index: 100;
   }
   & article {
+    width: 75vw;
+    background-color: ${colors.lightBrown};
+    padding: 20px;
+    padding-left: 20vw;
+
     & h2 {
       color: ${colors.offWhite};
       margin-bottom: 20px;

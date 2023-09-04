@@ -41,11 +41,11 @@ export default function PullDownMenu({ name, listLink }) {
         <Chevron className="fas fa-chevron-down"></Chevron>
       </NavLink>
       <StyledPullDownMenu>
-        {listLink.map((link) => (
+        {/* {listLink.map((link) => (
           <li key={link.name}>
             <NavLink to={link.link}>{link.name}</NavLink>
           </li>
-        ))}
+        ))} */}
       </StyledPullDownMenu>
     </li>
   );

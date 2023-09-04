@@ -66,7 +66,20 @@ export const BodyText = styled.p`
   }
 `;
 
-export const SmallBodyText = styled.p`
+export const BodyList = styled.ul`
+  margin: 0;
+  color: ${({ color }) => (color ? color : colors.offWhite)};
+  font-size: ${fontSize.bodyText};
+  text-align: justify;
+  @media screen and (max-width: ${screenSizeM}) {
+    font-size: ${fontSize.bodyTextM};
+  }
+  @media screen and (max-width: ${screenSizeS}) {
+    font-size: ${fontSize.bodyTextS};
+  }
+`;
+
+export const SmallBodyText = styled.div`
   margin: 0;
   color: ${({ color }) => (color ? color : colors.offWhite)};
   font-size: ${fontSize.smallBodyText};

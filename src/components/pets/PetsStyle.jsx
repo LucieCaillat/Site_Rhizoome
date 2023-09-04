@@ -3,7 +3,8 @@ import colors from "../../utils/style/colors";
 
 export const PetContainer = styled.div`
   display: flex;
-  flex-direction: ${({ isLeftSide }) => (isLeftSide ? "row" : "row-reverse")};
+  flex-direction: ${({ orientation }) =>
+    orientation === "left" ? "row" : "row-reverse"};
   justify-content: space-between;
   align-items: center;
   width: 95%;

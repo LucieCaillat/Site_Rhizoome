@@ -49,7 +49,7 @@ export default function AnimationNature() {
               goals={animation.goals}
               tags={animation.tags}
               topic={"autourDeLaFerme"}
-              isLeftSide={index % 2 === 0}
+              orientation={index % 2 === 0 ? "left" : "right"}
             ></AnimationDropdown>
           ))}
         </TypeAnimationContainer>
@@ -65,7 +65,7 @@ export default function AnimationNature() {
               goals={animation.goals}
               tags={animation.tags}
               topic={"autourDeLaNature"}
-              isLeftSide={index % 2 === 0}
+              orientation={index % 2 === 0 ? "left" : "right"}
             ></AnimationDropdown>
           ))}
         </TypeAnimationContainer>
@@ -84,7 +84,7 @@ export default function AnimationNature() {
               goals={animation.goals}
               tags={animation.tags}
               topic={"autourDuDD"}
-              isLeftSide={index % 2 === 0}
+              orientation={index % 2 === 0 ? "left" : "right"}
             ></AnimationDropdown>
           ))}
         </TypeAnimationContainer>
