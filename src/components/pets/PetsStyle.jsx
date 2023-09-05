@@ -7,15 +7,20 @@ export const PetContainer = styled.div`
     orientation === "left" ? "row" : "row-reverse"};
   justify-content: space-between;
   align-items: center;
-  width: 95%;
+  gap: 4%;
+  width: 100%;
   background-color: ${colors.offWhite};
-  margin: 20px auto;
+  padding: 30px 5%;
   & img {
-    width: 500px;
-    height: 500px;
+    width: 400px;
+    height: 400px;
     object-fit: cover;
+    border-radius: 250px;
+  }
+  & h3 {
+    color: ${colors.darkBrown};
   }
   & .pets-text {
-    margin: 20px;
+    align-self: flex-start;
   }
 `;

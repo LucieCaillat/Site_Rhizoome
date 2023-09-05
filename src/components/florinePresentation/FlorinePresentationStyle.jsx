@@ -23,7 +23,7 @@ export const FlorineBox = styled.section`
     padding-left: 20vw;
 
     & h2 {
-      color: ${colors.offWhite};
+      color: ${colors.cream};
       margin-bottom: 20px;
     }
   }
