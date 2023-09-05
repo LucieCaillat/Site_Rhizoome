@@ -2,7 +2,7 @@ import styled from "styled-components";
 import colors from "../../utils/style/colors";
 import fontSize from "../../utils/style/fontSize";
 import logo from "../../assets/logo.png";
-import GreenBtn from "../homePage/GreenBtn";
+import GreenBtn from "../greenBtn/GreenBtn";
 
 const StyledBeforeFooter = styled.section`
   display: flex;
@@ -26,7 +26,7 @@ const StyledBeforeFooter = styled.section`
     padding-top: 100px;
     & p {
       width: 90vw;
-      font-size: ${fontSize.activityFrames};
+      font-size: ${fontSize.activityBox};
     }
   }
 `;

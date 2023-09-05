@@ -25,14 +25,13 @@ export const HeaderLogo = styled(Link)`
 `;
 export const Nav = styled.nav`
   width: 660px;
+  margin-right: 5%;
   & .ul-nav {
     width: 100%;
     display: flex;
     justify-content: space-between;
     font-size: ${fontSize.nav};
     padding: 0;
-    margin-right: 5%;
-    color: ${colors.darkGray};
     & li {
       list-style-type: none;
     }

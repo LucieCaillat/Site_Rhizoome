@@ -3,7 +3,7 @@ import listAnimation from "../../data/listAnimationNature";
 import BeforeFooter from "../../components/footer/BeforeFooter";
 import {
   Cover,
-  Introduction,
+  AnimationNatureIntroduction,
   AnimationContainer,
   TypeAnimationContainer,
 } from "./AnimationNatureStyle";
@@ -16,7 +16,7 @@ export default function AnimationNature() {
     <div>
       <Cover src={coquelicot} alt="coquelicot" />
 
-      <Introduction>
+      <AnimationNatureIntroduction>
         <Title1 color={colors.darkBrown}>Animation nature</Title1>
         <BodyText>
           En permettant une évolution des comportements, l’éducation à
@@ -33,7 +33,7 @@ export default function AnimationNature() {
           lien avec un projet de votre établissement, n’hésitez pas à me
           contacter pour me faire part de vos demandes !
         </BodyText>
-      </Introduction>
+      </AnimationNatureIntroduction>
       <AnimationContainer>
         <TypeAnimationContainer color={colors.translucentOrange}>
           <BodyText color={colors.darkBrown} className="above-title">

@@ -1,19 +1,14 @@
 import styled from "styled-components";
 import { useState, useEffect } from "react";
-import carousel1 from "../../assets/carousel1.jpg";
-import carousel2 from "../../assets/carousel2.jpg";
-import carousel3 from "../../assets/carousel3.jpg";
-
-const Div = styled.div`
-  height: 85vh;
-  width: 100%;
-  position: relative;
-`;
+import { CarouselContainer } from "./CarouselStyle";
+import carousel1 from "../../../assets/carousel1.jpg";
+import carousel2 from "../../../assets/carousel2.jpg";
+import carousel3 from "../../../assets/carousel3.jpg";
 
 export default function Carousel() {
   const [images, setImages] = useState([carousel1, carousel2, carousel3]);
 
-  const Img = styled.img`
+  const CarouselImg = styled.img`
     position: absolute;
     top: 0px;
     left: 0px;
@@ -51,9 +46,9 @@ export default function Carousel() {
     }, 6900);
   }, [images]);
   return (
-    <Div>
-      <Img src={images[0]} />
-      <Img className="transition" src={images[1]} />
-    </Div>
+    <CarouselContainer>
+      <CarouselImg src={images[0]} />
+      <CarouselImg className="transition" src={images[1]} />
+    </CarouselContainer>
   );
 }

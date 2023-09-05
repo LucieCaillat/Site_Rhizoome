@@ -32,7 +32,7 @@ const fontSize = {
   smallBodyTextM: "20px",
   smallBodyTextS: "18px",
 
-  activityFrames: "40px",
+  activityBox: "40px",
   greenBtn: "30px",
   tag: "17px",
   xxS: "12px",

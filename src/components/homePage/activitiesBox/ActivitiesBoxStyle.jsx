@@ -1,12 +1,11 @@
 import styled from "styled-components";
-import colors from "../../utils/style/colors";
-import fontSize from "../../utils/style/fontSize";
-import GreenBtn from "./GreenBtn";
-import fleur from "../../assets/filigrane_fleur.png";
-import pate from "../../assets/filigrane_pate.png";
-import feuille from "../../assets/filigrane_feuille.png";
+import colors from "../../../utils/style/colors";
+import fontSize from "../../../utils/style/fontSize";
+import fleur from "../../../assets/filigrane_fleur.png";
+import pate from "../../../assets/filigrane_pate.png";
+import feuille from "../../../assets/filigrane_feuille.png";
 
-const Div = styled.div`
+export const ActivitiesBoxContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   width: 100%;
@@ -35,7 +34,7 @@ const Div = styled.div`
   }
 `;
 
-const Frame = styled.div`
+export const ActivityBox = styled.div`
   position: relative;
   top: -50px;
   display: flex;
@@ -55,7 +54,7 @@ const Frame = styled.div`
     text-align: center;
     font-weight: bold;
     color: ${colors.darkGray};
-    font-size: ${fontSize.activityFrames};
+    font-size: ${fontSize.activityBox};
     margin: 0;
     background-color: ${colors.cream};
     & span {
@@ -73,35 +72,3 @@ const Frame = styled.div`
     }
   }
 `;
-
-export default function ActivityFrames() {
-  return (
-    <Div>
-      <Frame>
-        <p id="animation-nature">
-          Animation
-          <br />
-          nature
-        </p>
-        <GreenBtn url="/AnimationNature">DÉCOUVRIR</GreenBtn>
-      </Frame>
-      <Frame>
-        <p id="autour-du-chien">
-          Autour
-          <br />
-          du chien <br />
-          <span>PECCRAM & LAC</span>
-        </p>
-        <GreenBtn url="/AutourDuChien">DÉCOUVRIR</GreenBtn>
-      </Frame>
-      <Frame>
-        <p id="médiation-animal">
-          Médiation
-          <br />
-          par l'animal
-        </p>
-        <GreenBtn url="/MediationAnimal">DÉCOUVRIR</GreenBtn>
-      </Frame>
-    </Div>
-  );
-}

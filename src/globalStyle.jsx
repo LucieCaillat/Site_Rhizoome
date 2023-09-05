@@ -20,7 +20,6 @@ body {
 export const Title1 = styled.h1`
   margin: 0 0 20px;
   font-size: ${fontSize.title1};
-  color: ${({ color }) => (color ? color : "")};
   @media screen and (max-width: ${screenSizeM}) {
     font-size: ${fontSize.title1M};
   }
@@ -33,7 +32,6 @@ export const Title1 = styled.h1`
 export const Title2 = styled.h2`
   margin: 0;
   font-size: ${fontSize.title2};
-  color: ${({ color }) => (color ? color : colors.darkGray)};
   @media screen and (max-width: ${screenSizeM}) {
     font-size: ${fontSize.title2M};
   }
@@ -63,6 +61,7 @@ export const BodyText = styled.p`
   }
   @media screen and (max-width: ${screenSizeS}) {
     font-size: ${fontSize.bodyTextS};
+    text-align: left;
   }
 `;
 

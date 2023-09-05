@@ -8,10 +8,13 @@ export const Cover = styled.img`
   height: 30vh;
   object-fit: cover;
 `;
-export const Introduction = styled.section`
+export const AnimationNatureIntroduction = styled.section`
   width: 100%;
   padding: 50px 5% 80px;
   background-color: ${colors.green};
+  & h1 {
+    color: ${colors.darkBrown};
+  }
 `;
 
 export const AnimationContainer = styled.div`
