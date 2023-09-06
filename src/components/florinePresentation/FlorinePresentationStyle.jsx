@@ -37,7 +37,7 @@ export const RoundImage = styled.img`
 export const Cv = styled.aside`
   background-color: ${colors.green};
   width: 600px;
-  padding: 10px;
+  padding: 20px;
   & p {
     padding: 10px;
     border: 2px ${colors.offWhite} dotted;

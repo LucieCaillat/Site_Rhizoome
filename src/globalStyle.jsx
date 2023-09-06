@@ -90,6 +90,19 @@ export const SmallBodyText = styled.div`
   }
 `;
 
+export const Citation = styled.p`
+  margin: 0;
+  font-size: ${fontSize.bodyText};
+  text-align: center;
+  font-style: italic;
+  @media screen and (max-width: ${screenSizeM}) {
+    font-size: ${fontSize.bodyTextM};
+  }
+  @media screen and (max-width: ${screenSizeS}) {
+    font-size: ${fontSize.bodyTextS};
+  }
+`;
+
 export const Cover = styled.img`
   display: block;
   width: 100%;

@@ -5,7 +5,7 @@ import Footer from "../components/footer/Footer";
 import HomePage from "../pages/homePage/HomePage";
 import AnimationNature from "../pages/animationNature/AnimationNature";
 import AutourDuChien from "../pages/autourDuChien/AutourDuChien";
-import MediationAnimal from "../pages/MediationAnimal";
+import MediationAnimal from "../pages/mediationAnimal/MediationAnimal";
 import QuiSommeNous from "../pages/quiSommeNous/QuiSommeNous";
 import LesPublics from "../pages/LesPublics";
 import Contact from "../pages/Contact";
