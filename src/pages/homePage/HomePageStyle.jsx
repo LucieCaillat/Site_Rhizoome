@@ -6,16 +6,17 @@ export const HomePageContainer = styled.div`
   display: flex;
   flex-direction: column;
 `;
+export const HomePageTitleContainer = styled.div`
+  position: relative;
+`;
 
 export const HomePageTitle = styled.h1`
   position: absolute;
-  top: 15vh;
-  left: 5%;
-  height: 0px;
-  margin: 0px;
+  top: 0;
+  left: 0;
   color: ${colors.offWhite};
   font-size: ${fontSize.title};
-  padding: 0;
+  margin: 2% 4%;
   & span {
     display: block;
     color: ${colors.green};

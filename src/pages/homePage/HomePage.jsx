@@ -4,20 +4,26 @@ import TeamPart from "../../components/homePage/teamPart/TeamPart";
 import BeforeFooter from "../../components/footer/BeforeFooter";
 import {
   HomePageContainer,
+  HomePageTitleContainer,
   HomePageTitle,
   HomePageIntroduction,
 } from "./HomePageStyle";
 import { Title2, BodyText } from "../../globalStyle";
+import AlertUnderConstruction from "../../components/alertUnderConstruction/AlertUnderConstruction";
 
 export default function HomePage() {
   return (
     <HomePageContainer>
-      <Carousel />
-      <HomePageTitle>
-        Animation nature <br />
-        & Médiation animale <br />
-        <span>dans le Val d’Oise et la région parisienne</span>
-      </HomePageTitle>
+      <AlertUnderConstruction type={"banner"} />
+      <HomePageTitleContainer>
+        <Carousel />
+        <HomePageTitle>
+          Animation nature <br />
+          & Médiation animale <br />
+          <span>dans le Val d’Oise et la région parisienne</span>
+        </HomePageTitle>
+      </HomePageTitleContainer>
+
       <HomePageIntroduction>
         <Title2>Découvrez la nature, les animaux et leurs bienfaits !</Title2>
         <BodyText>

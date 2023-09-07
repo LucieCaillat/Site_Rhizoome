@@ -1,3 +1,5 @@
+import AlertUnderConstruction from "../../components/alertUnderConstruction/AlertUnderConstruction";
+
 export default function AutourDuChien() {
-  return <div>AutourDuChien</div>;
+  return <AlertUnderConstruction />;
 }

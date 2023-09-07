@@ -1,3 +1,5 @@
+import AlertUnderConstruction from "../components/alertUnderConstruction/AlertUnderConstruction";
+
 export default function Tarifs() {
-  return <div>Tarifs</div>;
+  return <AlertUnderConstruction />;
 }

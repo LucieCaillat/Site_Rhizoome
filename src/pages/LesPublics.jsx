@@ -1,3 +1,5 @@
+import AlertUnderConstruction from "../components/alertUnderConstruction/AlertUnderConstruction";
+
 export default function LesPublics() {
-  return <div>Pour qui et où ?</div>;
+  return <AlertUnderConstruction />;
 }
