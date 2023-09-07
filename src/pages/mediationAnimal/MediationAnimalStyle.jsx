@@ -10,6 +10,11 @@ export const MediationAnimalContainer = styled.div`
       margin: 50px auto;
     }
   }
+  & h2 {
+    margin: 50px 0;
+    text-align: center;
+    color: ${colors.lightBrown};
+  }
 `;
 
 export const TitleContainer = styled.div`

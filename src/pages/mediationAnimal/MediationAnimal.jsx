@@ -3,7 +3,9 @@ import {
   TitleContainer,
   TextImgContainer,
 } from "./MediationAnimalStyle";
-import { Title1, BodyText, Citation } from "../../globalStyle";
+import { Title1, Title2, BodyText, Citation } from "../../globalStyle";
+import InfoBoxes from "../../components/inPageMediationAnimal/infoBoxes/InfoBoxes";
+import BeforeFooter from "../../components/footer/BeforeFooter";
 import img1 from "../../assets/mediation_animal_1.jpg";
 import img2 from "../../assets/mediation_animal_2.jpg";
 
@@ -50,6 +52,9 @@ export default function MediationAnimal() {
         </BodyText>
         <img src={img2} alt="" />
       </TextImgContainer>
+      <Title2>Les bienfaits apportés par la médiation animale</Title2>
+      <InfoBoxes />
+      <BeforeFooter />
     </MediationAnimalContainer>
   );
 }

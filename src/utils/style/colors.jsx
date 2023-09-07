@@ -12,6 +12,7 @@ const colors = {
   translucentYellow: "rgba(251,250,232, 0.85)",
   translucentGray: "rgba(247, 239, 224, 0.8)",
   roundImageLink: "rgba(175,118,52,0.8)",
+  infoBox: "rgba(251,250,232, 0.60)",
 
   animationTopicColors: {
     autourDeLaFerme: ["	#935D26", "#AF7634"],
