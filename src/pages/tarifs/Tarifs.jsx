@@ -20,7 +20,7 @@ export default function Tarifs() {
           <BodyText className="frais">+ Frais de déplacement</BodyText>
           <SmallBodyText>
             Le prix varie en fonction de l’animation choisie (matériel, achats
-            alimentaires…), du créneau horaire et du lieu d’intervention.{" "}
+            alimentaires…), du créneau horaire et du lieu d’intervention.
           </SmallBodyText>
         </TarifsBox>
 
@@ -57,8 +57,8 @@ export default function Tarifs() {
           </BodyText>
           <BodyText className="frais">+ Frais de déplacement</BodyText>
           <SmallBodyText>
-            Le prix varie en fonction de l’animation choisie, du créneau horaire
-            et du lieu d’intervention.
+            Le prix varie en fonction de l’animation choisie (matériel, achats
+            alimentaires…), du créneau horaire et du lieu d’intervention.
           </SmallBodyText>
         </TarifsBox>
       </TarifsBoxesContainer>

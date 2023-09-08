@@ -26,21 +26,22 @@ export const TarifsBoxesContainer = styled.div`
 `;
 
 export const TarifsBox = styled.section`
-  &.tarifs_anim_nat {
-    background-color: ${colors.darkGreen};
+  &.tarifs_anim_nat h2 {
+    color: ${colors.darkGreen};
   }
-  &.tarifs_autour_chien {
-    background-color: ${colors.orange};
+  &.tarifs_autour_chien h2 {
+    color: ${colors.orange};
   }
-  &.tarifs_médiation_a {
-    background-color: ${colors.purple};
+  &.tarifs_médiation_a h2 {
+    color: ${colors.purple};
   }
-  &.tarifs_particuliers {
-    background-color: ${colors.blue};
+  &.tarifs_particuliers h2 {
+    color: ${colors.blue};
   }
   width: 48%;
   min-width: 700px;
-  color: ${colors.offWhite};
+  background-color: ${colors.offWhite};
+
   padding: 20px 30px;
   margin: 40px 0;
   & h2 {
@@ -49,15 +50,18 @@ export const TarifsBox = styled.section`
   & p {
     margin: 20px 0;
     text-align: left;
+    color: ${colors.darkGray};
   }
   & .frais {
-    color: white;
+    color: ${colors.darkGray};
+    filter: brightness(0.7);
     text-align: center;
     margin: 40px 0;
     transform: scale(1.2);
   }
   & div {
     font-weight: normal;
+    color: ${colors.darkGray};
   }
   @media screen and (max-width: 1535px) {
     width: 90%;
