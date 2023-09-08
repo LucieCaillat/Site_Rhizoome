@@ -63,6 +63,15 @@ export const BodyText = styled.p`
     font-size: ${fontSize.bodyTextS};
     text-align: left;
   }
+  & span {
+    font-size: ${fontSize.smallBodyText};
+    @media screen and (max-width: ${screenSizeM}) {
+      font-size: ${fontSize.smallBodyTextM};
+    }
+    @media screen and (max-width: ${screenSizeS}) {
+      font-size: ${fontSize.smallBodyTextS};
+    }
+  }
 `;
 
 export const BodyList = styled.ul`

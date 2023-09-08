@@ -9,7 +9,7 @@ import MediationAnimal from "../pages/mediationAnimal/MediationAnimal";
 import QuiSommeNous from "../pages/quiSommeNous/QuiSommeNous";
 import LesPublics from "../pages/LesPublics";
 import Contact from "../pages/Contact";
-import Tarifs from "../pages/Tarifs";
+import Tarifs from "../pages/tarifs/Tarifs";
 
 export default function RoutesApp() {
   return (
