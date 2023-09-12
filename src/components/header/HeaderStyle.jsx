@@ -3,10 +3,19 @@ import colors from "../../utils/style/colors";
 import fontSize from "../../utils/style/fontSize";
 import { Link } from "react-router-dom";
 
+export const HeaderStyled = styled.div`
+  & .fake-header {
+    height: 15vh;
+    background: ${colors.offWhite};
+  }
+`;
 export const HeaderContainer = styled.header`
+  position: fixed;
+  top: 0;
+  z-index: 10000;
   width: 100%;
-  height: 15vh;
-  background: ${colors.offWhite};
+  height: 12vh;
+  background: linear-gradient(${colors.offWhite}, rgba(255, 247, 233, 0.95));
   display: flex;
   align-items: center;
   justify-content: space-between;
