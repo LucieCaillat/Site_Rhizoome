@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import colors from "../../utils/style/colors";
+import colors from "../../../utils/style/colors";
 
 export const FlorineBox = styled.section`
   display: flex;
@@ -14,7 +14,7 @@ export const FlorineBox = styled.section`
     padding: 20px;
     gap: 30px;
     width: 0vw;
-    z-index: 100;
+    z-index: 1;
   }
   & article {
     width: 75vw;

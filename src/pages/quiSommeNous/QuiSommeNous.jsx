@@ -1,5 +1,5 @@
 import { QuiSommeNousContainer } from "./QuiSommeNousStyle";
-import FlorinePresentation from "../../components/florinePresentation/FlorinePresentation";
+import FlorinePresentation from "../../components/inPageQuiSommeNous/florinePresentation/FlorinePresentation";
 import Pets from "../../components/pets/Pets";
 import { Title1, Title2, Cover } from "../../globalStyle";
 import listPets from "../../data/listPets";

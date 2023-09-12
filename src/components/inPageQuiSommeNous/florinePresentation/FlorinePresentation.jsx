@@ -1,6 +1,11 @@
-import { Title2, BodyText, SmallBodyText, BodyList } from "../../globalStyle";
+import {
+  Title2,
+  BodyText,
+  SmallBodyText,
+  BodyList,
+} from "../../../globalStyle";
 import { FlorineBox, RoundImage, Cv } from "./FlorinePresentationStyle";
-import florine2 from "../../assets/florine2.jpg";
+import florine2 from "../../../assets/florine2.jpg";
 
 export default function FlorinePresentation() {
   return (
