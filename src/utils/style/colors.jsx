@@ -17,6 +17,8 @@ const colors = {
   translucentGreen: "rgba(243,245,235, 0.85)",
   translucentYellow: "rgba(251,250,232, 0.85)",
   translucentGray: "rgba(247, 239, 224, 0.8)",
+  translucentOffWhite: "rgba(255, 247, 233, 0.95)",
+  translucentWhite: "rgba(255, 255, 255, 0.2)",
   roundImageLink: "rgba(175,118,52,0.8)",
   infoBox: "rgba(251,250,232, 0.60)",
 

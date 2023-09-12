@@ -2,8 +2,8 @@ import styled from "styled-components";
 import colors from "../../utils/style/colors";
 
 export const ContactContainer = styled.div`
-  padding: 0 5%;
-  min-height: 85vh;
+  min-height: 60vh;
+  padding: 0 5% 50px;
   background-color: ${colors.offWhite};
   & p {
     color: ${colors.darkGray};

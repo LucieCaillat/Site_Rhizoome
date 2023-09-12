@@ -2,7 +2,7 @@ import styled from "styled-components";
 import colors from "../../utils/style/colors";
 
 export const MediationAnimalContainer = styled.div`
-  background-color: ${colors.offWhite};
+  background: linear-gradient(white, ${colors.offWhite});
   & p {
     color: ${colors.darkGray};
     &.center-text {

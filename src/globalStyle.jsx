@@ -15,8 +15,13 @@ body {
   font-weight: bold;
   color: ${colors.darkGray};
 }
+#root{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+} 
 `;
-
 export const Title1 = styled.h1`
   margin: 0 0 20px;
   font-size: ${fontSize.title1};

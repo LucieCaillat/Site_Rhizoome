@@ -15,7 +15,10 @@ export const HeaderContainer = styled.header`
   z-index: 10000;
   width: 100%;
   height: 12vh;
-  background: linear-gradient(${colors.offWhite}, rgba(255, 247, 233, 0.95));
+  background: linear-gradient(
+    ${colors.offWhite},
+    ${colors.translucentOffWhite}
+  );
   display: flex;
   align-items: center;
   justify-content: space-between;

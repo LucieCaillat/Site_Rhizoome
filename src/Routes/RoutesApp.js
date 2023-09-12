@@ -7,7 +7,7 @@ import AnimationNature from "../pages/animationNature/AnimationNature";
 import AutourDuChien from "../pages/autourDuChien/AutourDuChien";
 import MediationAnimal from "../pages/mediationAnimal/MediationAnimal";
 import QuiSommeNous from "../pages/quiSommeNous/QuiSommeNous";
-import LesPublics from "../pages/LesPublics";
+import LesPublics from "../pages/lesPublics/LesPublics";
 import Contact from "../pages/contact/Contact";
 import Tarifs from "../pages/tarifs/Tarifs";
 
