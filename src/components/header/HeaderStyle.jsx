@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 export const HeaderStyled = styled.div`
   & .fake-header {
     height: 15vh;
+    min-height: 110px;
     background: ${colors.offWhite};
   }
 `;
@@ -15,6 +16,7 @@ export const HeaderContainer = styled.header`
   z-index: 10000;
   width: 100%;
   height: 12vh;
+  min-height: 100px;
   background: linear-gradient(
     ${colors.offWhite},
     ${colors.translucentOffWhite}
