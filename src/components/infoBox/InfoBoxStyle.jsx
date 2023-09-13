@@ -7,7 +7,7 @@ export const InfoBoxContainer = styled.aside`
   display: block;
   width: 33%;
   max-width: 700px;
-  height: 300px;
+  height: 400px;
   cursor: pointer;
   & .icon {
     width: 100%;
@@ -48,5 +48,12 @@ export const InfoBoxContainer = styled.aside`
   &:hover .info {
     opacity: 1;
     transition: opacity 600ms;
+  }
+  @media screen and (max-width: 1050px) {
+    width: 100%;
+    & .info {
+      opacity: 1;
+      font-size: ${fontSize.smallBodyTextS};
+    }
   }
 `;

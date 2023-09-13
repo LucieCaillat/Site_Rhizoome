@@ -6,8 +6,10 @@ export const MediationAnimalContainer = styled.div`
   & p {
     color: ${colors.darkGray};
     &.center-text {
-      width: 80%;
       margin: 50px auto;
+      @media screen and (max-width: 600px) {
+        margin: 20px auto;
+      }
     }
   }
   & h2 {
@@ -21,12 +23,21 @@ export const TitleContainer = styled.div`
   background-color: ${colors.darkBrown};
   color: ${colors.cream};
   padding: 20px;
-  margin-bottom: 50px;
   & p {
     color: ${colors.cream};
     width: 40%;
     min-width: 650px;
     margin: auto;
+    @media screen and (max-width: 680px) {
+      width: 95%;
+      min-width: auto;
+    }
+  }
+`;
+export const TextContainer = styled.section`
+  padding: 50px 10% 0;
+  @media screen and (max-width: 600px) {
+    padding: 20px 5% 0;
   }
 `;
 
@@ -34,17 +45,25 @@ export const TextImgContainer = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 10%;
-  padding: 20px;
+  gap: 5%;
+  padding: 20px 0;
   & img {
     width: 30%;
     max-width: 416px;
+    min-width: 220px;
     height: 30%;
     max-height: 440px;
     object-fit: cover;
   }
   & p {
-    width: 50%;
-    max-width: 564px;
+    width: 60%;
+    max-width: 800px;
+  }
+  @media screen and (max-width: 600px) {
+    flex-direction: column-reverse;
+    gap: 20px;
+    & p {
+      width: 100%;
+    }
   }
 `;
