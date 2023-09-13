@@ -78,7 +78,7 @@ export default function Footer() {
           <br />
           Tel : 06 70 14 23 84
           <br />
-          Mail : rhizoomz95@gmail.com
+          Mail : rhizoome95@gmail.com
           <br />
           Facebook :{" "}
           <Link className="link" to="#">
