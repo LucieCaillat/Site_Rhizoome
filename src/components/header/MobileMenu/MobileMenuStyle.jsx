@@ -52,10 +52,10 @@ export const MobileNavLink = styled(Link)`
   &:hover {
     filter: brightness(0.5);
   }
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 600px) {
     font-size: ${fontSize.mobileNavM};
   }
-  @media only screen and (max-width: 340px) {
+  @media only screen and (max-width: 400px) {
     font-size: ${fontSize.mobileNavS};
   }
 `;

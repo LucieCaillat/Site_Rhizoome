@@ -2,9 +2,9 @@ const fontSize = {
   nav: "24px",
   navM: "18px",
   navS: "16px",
-  mobileNav: "50px",
-  mobileNavM: "40px",
-  mobileNavS: "30px",
+  mobileNav: "40px",
+  mobileNavM: "30px",
+  mobileNavS: "20px",
 
   title: "90px",
   titleM: "70px",

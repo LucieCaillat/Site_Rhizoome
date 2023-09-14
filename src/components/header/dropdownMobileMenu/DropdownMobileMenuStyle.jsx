@@ -8,6 +8,7 @@ export const DropdownContainer = styled.li`
   align-items: center;
   flex-direction: column;
 `;
+
 export const MobileMenuLink = styled(Link)`
   text-decoration: none;
   color: ${colors.darkGray};
@@ -17,7 +18,8 @@ export const MobileMenuLink = styled(Link)`
     filter: brightness(0.5);
   }
   &.title {
-    color: ${({ open }) => (open === "yes" ? colors.green : "")};
+    filter: ${({ open }) =>
+      open === "yes" ? "brightness(1.5)" : "brightness(1)"};
   }
   & i {
     font-size: 45px;
@@ -29,13 +31,13 @@ export const MobileMenuLink = styled(Link)`
   & .fa-chevron-down {
     display: ${({ open }) => (open === "yes" ? "inline" : "none")};
   }
-  @media only screen and (max-width: 450px) {
+  @media only screen and (max-width: 600px) {
     font-size: ${fontSize.mobileNavM};
     & i {
       font-size: 35px;
     }
   }
-  @media only screen and (max-width: 340px) {
+  @media only screen and (max-width: 400px) {
     font-size: ${fontSize.mobileNavS};
     & i {
       font-size: 25px;
@@ -48,12 +50,14 @@ export const StyledPullDownMenu = styled.ul`
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 100vw;
+  width: 90vw;
   background: white;
   padding: 20px;
+  margin: 5px 0 20px;
 
   & li {
     list-style-type: none;
     margin: 0px;
+    text-align: center;
   }
 `;
