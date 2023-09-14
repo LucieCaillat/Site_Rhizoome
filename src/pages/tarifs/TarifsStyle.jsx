@@ -62,7 +62,8 @@ export const TarifsBox = styled.section`
     font-weight: normal;
   }
   @media screen and (max-width: 1535px) {
-    width: 90%;
-    min-width: 350px;
+    max-width: 860px;
+    width: 96%;
+    min-width: auto;
   }
 `;
