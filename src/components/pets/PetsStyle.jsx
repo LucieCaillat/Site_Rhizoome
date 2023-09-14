@@ -13,7 +13,6 @@ export const PetContainer = styled.div`
   padding: 30px 5%;
   & img {
     width: 400px;
-    height: 400px;
     object-fit: cover;
     border-radius: 250px;
   }
@@ -22,5 +21,30 @@ export const PetContainer = styled.div`
   }
   & .pets-text {
     align-self: flex-start;
+  }
+
+  @media screen and (max-width: 1300px) {
+    padding: 30px 2%;
+    gap: 2%;
+  }
+  @media screen and (max-width: 900px) {
+    flex-direction: column;
+    gap: 30px;
+    & .pets-img {
+      width: 70%;
+      max-width: 300px;
+    }
+    & img {
+      width: 100%;
+      height: auto;
+    }
+    & .pets-text {
+      align-self: center;
+      text-align: center;
+      & p {
+        margin: 10px 2%;
+        text-align: center;
+      }
+    }
   }
 `;

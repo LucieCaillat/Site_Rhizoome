@@ -26,11 +26,11 @@ const fontSize = {
 
   bodyText: "30px",
   bodyTextM: "25px",
-  bodyTextS: "20px",
+  bodyTextS: "18px",
 
   smallBodyText: "25px",
   smallBodyTextM: "20px",
-  smallBodyTextS: "18px",
+  smallBodyTextS: "16px",
 
   activityBox: "40px",
   greenBtn: "30px",

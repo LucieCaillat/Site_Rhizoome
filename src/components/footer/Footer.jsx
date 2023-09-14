@@ -74,7 +74,7 @@ export default function Footer() {
     <StyledFooter>
       <div>
         <p id="footer-contact">
-          <span>Florine Davie</span>
+          <span>Florine Davi</span>
           <br />
           Tel : 06 70 14 23 84
           <br />

@@ -6,6 +6,7 @@ import listPets from "../../data/listPets";
 import cover from "../../assets/carousel2.jpg";
 import QuestionsBox from "../../components/inPageQuiSommeNous/questionsBox/QuestionsBox";
 import BeforeFooter from "../../components/footer/BeforeFooter";
+import Cv from "../../components/inPageQuiSommeNous/cv/Cv";
 
 export default function QuiSommeNous() {
   return (
@@ -13,6 +14,7 @@ export default function QuiSommeNous() {
       <Cover src={cover} alt="Qui sommes nous?" />
       <Title1>Qui sommes nous ?</Title1>
       <FlorinePresentation />
+      <Cv type="phone" />
       <QuestionsBox />
       <Title2 className="pets-title" id="les-chiens">
         Les Chiens

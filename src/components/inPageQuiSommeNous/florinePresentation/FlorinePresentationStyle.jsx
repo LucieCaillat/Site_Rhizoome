@@ -3,28 +3,75 @@ import colors from "../../../utils/style/colors";
 
 export const FlorineBox = styled.section`
   display: flex;
+  flex-direction: row-reverse;
   justify-content: flex-end;
-  gap: 30px;
-  padding: 20px 30px;
-  & .florin-box_left-part {
+  margin: 20px 1% 20px 4%;
+  & .florin-box_ghost-part {
+    min-width: 250px;
+  }
+  & .florin-box_side-part {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-    padding: 20px;
-    gap: 30px;
-    width: 0vw;
+    padding: 20px 0;
+    gap: 20px;
+    width: 0px;
     z-index: 1;
+    background-color: blue;
   }
   & article {
-    width: 75vw;
+    width: 100%;
     background-color: ${colors.lightBrown};
-    padding: 20px;
-    padding-left: 20vw;
+    padding: 30px;
+    padding-right: 320px;
 
     & h2 {
       color: ${colors.cream};
       margin-bottom: 20px;
+    }
+    & p,
+    li {
+      margin-bottom: 20px;
+    }
+  }
+
+  /*Tablet style */
+  @media screen and (max-width: 1500px) and (min-width: 901px) {
+    & .florin-box_ghost-part {
+      min-width: 200px;
+    }
+    & .florin-box_side-part {
+      justify-content: flex-start;
+      gap: 25px;
+    }
+    & article {
+      padding-right: 30px;
+      & p,
+      li {
+        margin-right: 210px;
+      }
+      & .overflow {
+        margin-right: 0px;
+      }
+    }
+  }
+
+  @media screen and (max-width: 1237px) and (min-width: 901px) {
+    & .overflow-2 {
+      margin-right: 0px;
+    }
+  }
+  /*Phone style */
+  @media screen and (max-width: 900px) {
+    margin: 20px 3% 0;
+    & .florin-box_side-part,
+    .florin-box_ghost-part {
+      display: none;
+    }
+    & article {
+      padding-right: 30px;
+      padding-bottom: 150px;
     }
   }
 `;
@@ -32,17 +79,7 @@ export const FlorineBox = styled.section`
 export const RoundImage = styled.img`
   width: 500px;
   border-radius: 250px;
-`;
-
-export const Cv = styled.aside`
-  background-color: ${colors.green};
-  width: 600px;
-  padding: 20px;
-  & p {
-    padding: 10px;
-    border: 2px ${colors.offWhite} dotted;
-  }
-  & li {
-    margin: 20px;
+  @media screen and (max-width: 1500px) {
+    width: 300px;
   }
 `;

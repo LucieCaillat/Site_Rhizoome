@@ -14,4 +14,7 @@ export const QuiSommeNousContainer = styled.div`
     text-align: center;
     margin: 80px 0;
   }
+  & #les-chiens {
+    margin-top: 0;
+  }
 `;

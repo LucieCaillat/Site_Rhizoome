@@ -89,6 +89,7 @@ export const BodyList = styled.ul`
   }
   @media screen and (max-width: ${screenSizeS}) {
     font-size: ${fontSize.bodyTextS};
+    text-align: left;
   }
 `;
 

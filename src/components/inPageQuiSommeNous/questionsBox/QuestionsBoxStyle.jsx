@@ -5,5 +5,8 @@ export const QuestionsBoxContainer = styled.div`
   justify-content: space-around;
   gap: 20px;
   padding: 20px;
-  margin: 20px 0 50px;
+  margin: 50px 0 80px;
+  @media screen and (max-width: 900px) {
+    display: none;
+  }
 `;
