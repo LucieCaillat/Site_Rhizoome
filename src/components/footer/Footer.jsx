@@ -57,15 +57,10 @@ const StyledFooter = styled.footer`
       font-size: ${fontSize.xxS};
     }
   }
-  @media screen and (max-width: 580px) {
-    height: 200px;
-    font-size: ${fontSize.bodyTextS};
-    & #footer-title {
-      display: none;
-    }
-    & #footer-legal-mention {
-      font-size: ${fontSize.xxS};
-    }
+  @media screen and (max-width: 460px) {
+    height: 180px;
+    font-size: ${fontSize.navS};
+    padding-bottom: 40px;
   }
 `;
 

@@ -1,5 +1,7 @@
 const fontSize = {
   nav: "24px",
+  navM: "18px",
+  navS: "16px",
   mobileNav: "50px",
   mobileNavM: "40px",
   mobileNavS: "30px",
