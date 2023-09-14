@@ -54,4 +54,17 @@ export const TypeOfPublics = styled.section`
     background-color: ${colors.green};
     z-index: -1;
   }
+  @media screen and (max-width: 1131px) {
+    width: 46%;
+    margin: 20px 0;
+  }
+  @media screen and (max-width: 744px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 450px) {
+    min-width: auto;
+    & .publics-icon {
+      font-size: 200px;
+    }
+  }
 `;
