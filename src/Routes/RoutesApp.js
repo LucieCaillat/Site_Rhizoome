@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
+import ScrollToTop from "../utils/ScrollToTop";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
 import HomePage from "../pages/homePage/HomePage";
@@ -14,6 +15,7 @@ import Tarifs from "../pages/tarifs/Tarifs";
 export default function RoutesApp() {
   return (
     <React.Fragment>
+      <ScrollToTop />
       <Header />
       <Routes>
         <Route exact path="/" element={<HomePage />} />

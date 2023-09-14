@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import colors from "../../../utils/style/colors";
 import fontSize from "../../../utils/style/fontSize";
-import { Link } from "react-router-dom";
+import { HashLink as Link } from "react-router-hash-link";
 
 export const StyledLink = styled(Link)`
   position: relative;
