@@ -23,7 +23,7 @@ export default function Peccram() {
         <BodyText>
           Ce programme, déjà reconnu par le Ministère de l’Agriculture, de la
           Santé et la communauté scientifique vétérinaire est réalisé à l’aide
-          de supports pédagogiques adaptés (images, jeux de rôle,mises en
+          de supports pédagogiques adaptés (images, jeux de rôle, mises en
           situation, petits films…), avec OU sans chien mais toujours avec des
           peluches réalistes, pour apprendre aux enfants à mieux connaître les
           chiens et à adopter les bons comportements en leur présence.
@@ -48,8 +48,7 @@ export default function Peccram() {
           séances de 45min à 2h, afin d’aborder plus de sujets en lien avec le
           chien (le langage corporel du chien, jeux des émotions, les métiers
           autour du chien, la promenade citoyenne et respectueuse avec le chien
-          (déjections)…) et de coller sur une période complète en TAP ou centre
-          de loisirs.{" "}
+          …) et de coller sur une période complète en TAP ou centre de loisirs.{" "}
         </BodyText>
       </TextImgContainer>
 
@@ -60,8 +59,8 @@ export default function Peccram() {
       </BodyText>
       <BodyText className="program_for">Un programme pour :</BodyText>
       <TagBox>
+        <Tag title="ÉCOLES" />
         <Tag title="CENTRE DE LOISIRS" />
-        <Tag title="STRUCTURES DE L'ÉDUCATION SPÉCIALISÉE" />
         <Tag title="PARTICULIERS" />
       </TagBox>
     </PartContainer>

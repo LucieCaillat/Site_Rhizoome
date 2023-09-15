@@ -36,7 +36,7 @@ export default function TeamPart({ children, title }) {
           size={petRoundImageSize}
           img={imgChevres}
           url="/QuiSommeNous#les-chèvres"
-          title="LES CHÉVRES"
+          title="LES CHÈVRES"
         />
         <RoundImageLink
           size={petRoundImageSize}

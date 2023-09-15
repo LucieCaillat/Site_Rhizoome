@@ -38,8 +38,8 @@ export default function Tarifs() {
           <Title2>Médiation animale</Title2>
           <BodyText>
             100€ la séance d’une heure <br />
-            Formule 2*45min : 190€ <br />
-            <span>(permettre à deux groupes de pouvoir passer)</span> :
+            Formule 2 séances à la suite : 190€ <br />
+            <span>(pour permettre à deux groupes de pouvoir passer)</span>
           </BodyText>
           <BodyText className="frais">+ Frais de déplacement</BodyText>
         </TarifsBox>
@@ -47,9 +47,9 @@ export default function Tarifs() {
         <TarifsBox className="tarifs_particuliers">
           <Title2>Particuliers</Title2>
           <BodyText>
-            Ateliers individuels personnalisé: à partir de 50€
+            Ateliers individuels personnalisés: à partir de 50€
             <br />
-            Anniversaire <span>(environ 2h)</span> : à partir de 180€
+            Anniversaires <span>(environ 2h)</span> : à partir de 180€
             <br />
             <span>
               (limité à 10 enfants, + adultes encadrants, gâteau non fourni)
@@ -63,7 +63,7 @@ export default function Tarifs() {
         </TarifsBox>
       </TarifsBoxesContainer>
       <Title2 className="tarif_contactez_moi">
-        Demandez moi un devis personnalisé !
+        Demandez-moi un devis personnalisé !
       </Title2>
       <BeforeFooter />
     </TarifsContainer>

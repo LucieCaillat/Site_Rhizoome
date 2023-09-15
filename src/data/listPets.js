@@ -21,7 +21,7 @@ const listPets = {
     {
       img: chevre,
       title: "FREYJA",
-      text: "Freyja est né le 3 mars 2021. Ayant perdu sa mère alors qu'elle n'avait que quelques jours, elle a décidé de nous adopter et s'est mise à nous suivre partout! Chèvre-chien donc elle est vite devenue très complice avec Pirate! Affectueuse mais avec un caractère bien trempé, elle a le truc pour donner le sourire aux gens",
+      text: "Freyja est né le 3 mars 2021. Ayant perdu sa mère alors qu'elle n'avait que quelques jours, elle a décidé de nous adopter et s'est mise à nous suivre partout! Chèvre-chien donc, elle est vite devenue très complice avec Pirate! Affectueuse mais avec un caractère bien trempé, elle a le truc pour donner le sourire aux gens.",
     },
     {
       img: chevre,
@@ -57,7 +57,7 @@ const listPets = {
     {
       img: cochonsDInde,
       title: "TEDDY",
-      text: "Teddy est un cochon d’inde de race Teddy (original!) ,, Ce qu’il préfère c’est les carottes, les carottes et les grattouilles sous le menton!",
+      text: "Teddy est un cochon d’inde de race Teddy (original!). Ce qu’il préfère c’est les carottes, les carottes et les grattouilles sous le menton!",
     },
     {
       img: cochonsDInde,

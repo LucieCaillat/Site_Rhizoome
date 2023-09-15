@@ -15,10 +15,10 @@ export default function AutourDuChien() {
           société.
         </BodyText>
         <BodyText>
-          Apprend aux enfants comment se comporter face aux nombreux chiens
-          qu’ils peuvent croiser est important pour prévenir les morsures sont
-          la troisième cause d’accidents domestiques! C’est en ce sens que
-          Rhizoome propose les ateliers de prévention morsure PECCRAM.{" "}
+          Face aux nombreux chiens qu’ils peuvent croiser, apprendre aux enfants
+          comment se comporter avec eux est important pour prévenir les morsures
+          qui sont la troisième cause d’accidents domestiques! C’est en ce sens
+          que Rhizoome propose les ateliers de prévention morsure PECCRAM.{" "}
           <a href="#peccram">En savoir plus </a>
         </BodyText>
         <BodyText>

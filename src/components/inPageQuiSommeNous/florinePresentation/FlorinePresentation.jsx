@@ -44,7 +44,7 @@ export default function FlorinePresentation() {
           <li className="overflow">
             Mes formations à la médiation animale, au PECCRAM et au programme
             LAC m’ont permis d’acquérir les certifications et les connaissances
-            nécessaires pour dispenser ces types d’ateliers
+            nécessaires pour dispenser ces types d’ateliers.
           </li>
         </BodyList>
         <BodyText className="overflow">

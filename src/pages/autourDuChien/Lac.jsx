@@ -47,6 +47,7 @@ export default function Lac() {
       </BodyText>
       <BodyText>Pour :</BodyText>
       <TagBox>
+        <Tag title="ÉCOLES" />
         <Tag title="CENTRE DE LOISIRS" />
         <Tag title="BIBLIOTHEQUES" />
       </TagBox>

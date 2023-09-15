@@ -8,11 +8,12 @@ export default function QuestionsBox() {
         Les Rhizomes sont les tiges souterraines, remplies de réserves
         alimentaires de certaines plantes vivaces. Ils peuvent se ramifier
         considérablement et permettre ainsi la multiplication végétative de la
-        plante. Séparés de leur plante d’origine, ils devient des propagules et
-        de nouvelles plantes peuvent se former. C’est cette idée de réserve et
-        de propagation (pour la connaissance) qui se cache derrière le nom de
-        Rhizoome. Quand au double o, vous l’aviez compris, c’est pour zoo et le
-        rapport avec l’animal.
+        plante. Séparés de leur plante d’origine, ils deviennent des propagules
+        et de nouvelles plantes peuvent se former. C’est cette idée de réserve
+        et de propagation (pour la connaissance) qui se cache derrière le nom de
+        Rhizoome. <br />
+        Quand au double o, vous l’aviez compris, c’est pour zoo et le rapport
+        avec l’animal.
       </QuestionBox>
 
       <QuestionBox question="Avez vous reconnu la plante du logo ?">
