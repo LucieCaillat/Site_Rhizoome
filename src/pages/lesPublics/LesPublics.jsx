@@ -11,10 +11,8 @@ export default function LesPublics() {
       <Title1>Pour qui et où ?</Title1>
       <TypesOfPublicsContainer>
         <TypeOfPublics className="ecole">
-          <div className="publics-icon">
-            <i className="fa-solid fa-school" />
-          </div>
           <Title2>A l'école ou en centre de loisirs</Title2>
+          <i className="fa-solid fa-school" />
           <BodyText>
             Pendant le temps scolaire et périscolaire ou en centre de loisirs le
             mercredi et pendant les vacances.
@@ -22,10 +20,8 @@ export default function LesPublics() {
         </TypeOfPublics>
 
         <TypeOfPublics className="autre-structure">
-          <div className="publics-icon">
-            <i className="fa-solid fa-landmark" />
-          </div>
           <Title2>Dans d'autres structures</Title2>
+          <i className="fa-solid fa-landmark" />
           <BodyText>
             Dans les crèches, les EHPAD, les structures de l'éducation
             spécialisée, les hôpitaux, les FAM, les médiathèques, MJC,
@@ -34,11 +30,11 @@ export default function LesPublics() {
         </TypeOfPublics>
 
         <TypeOfPublics className="particulier">
-          <div className="publics-icon">
-            <i className="fa-solid fa-house-chimney-user" />
-          </div>
-
-          <Title2>Chez les particuliers</Title2>
+          <Title2>
+            Chez les <br />
+            particuliers
+          </Title2>
+          <i className="fa-solid fa-house-chimney-user" />
           <BodyText>
             A votre domicile, avec vos enfants et d’autres… Accompagnements
             personnalisés, soutien scolaire, aide aux devoirs, anniversaires...

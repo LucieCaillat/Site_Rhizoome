@@ -31,7 +31,7 @@ export default function FlorinePresentation() {
           </li>
           <li>
             Ma passion pour les voyages et le woofing (travail contre logement
-            dans des fermes) ma permis de connaître la réalité du terrain,
+            dans des fermes) m'a permis de connaître la réalité du terrain,
             d’acquérir des compétences sociales et de m’ouvrir au monde.
           </li>
           <li className="overflow-2">
