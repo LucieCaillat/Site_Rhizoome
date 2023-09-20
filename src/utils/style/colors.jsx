@@ -21,6 +21,10 @@ const colors = {
   translucentGray: "rgba(247, 239, 224, 0.8)",
   translucentOffWhite: "rgba(255, 247, 233, 0.95)",
   translucentWhite: "rgba(255, 255, 255, 0.2)",
+  whiteGreen: "rgba(135, 189, 40, 0.20)",
+  whiteBrown: "rgba(146, 85, 28, 0.15)",
+  whiteOrange: "rgba(233, 92, 19, 0.2)",
+  whiteYellow: "rgba(249, 176, 54, 0.20)",
   roundImageLink: "rgba(175,118,52,0.8)",
   infoBox: "rgba(251,250,232, 0.60)",
 

@@ -11,7 +11,7 @@ export default function LesPublics() {
       <Title1>Pour qui et où ?</Title1>
       <TypesOfPublicsContainer>
         <TypeOfPublics className="ecole">
-          <Title2>A l'école ou en centre de loisirs</Title2>
+          <Title2>À l'école ou en centre de loisirs</Title2>
           <i className="fa-solid fa-school" />
           <BodyText>
             Pendant le temps scolaire et périscolaire ou en centre de loisirs le
