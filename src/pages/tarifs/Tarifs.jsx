@@ -14,8 +14,8 @@ export default function Tarifs() {
         <TarifsBox className="tarifs_anim_nat">
           <Title2>Les animations nature</Title2>
           <BodyText>
-            Demi-journée : A partir de 180€ <br />
-            Journée : A partir de 260€{" "}
+            Demi-journée : à partir de 180€ <br />
+            Journée : à partir de 260€{" "}
           </BodyText>
           <BodyText className="frais">+ Frais de déplacement</BodyText>
           <SmallBodyText>

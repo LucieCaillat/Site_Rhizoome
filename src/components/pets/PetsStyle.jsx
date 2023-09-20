@@ -5,40 +5,53 @@ export const PetContainer = styled.div`
   display: flex;
   flex-direction: ${({ orientation }) =>
     orientation === "left" ? "row" : "row-reverse"};
-  justify-content: space-between;
-  align-items: center;
-  gap: 4%;
+  justify-content: ${({ orientation }) =>
+    orientation === "left" ? "start" : "end"};
+  align-items: flex-start;
+  gap: 2%;
   width: 100%;
   background-color: ${colors.offWhite};
-  padding: 30px 5%;
+  padding: 60px 3%;
   & img {
-    width: 400px;
+    margin-top: 7px;
+    width: 500px;
     object-fit: cover;
-    border-radius: 250px;
   }
   & h3 {
     color: ${colors.darkBrown};
+    text-align: ${({ orientation }) =>
+      orientation === "left" ? "left" : "right"};
+    margin-bottom: 30px;
   }
   & .pets-text {
-    align-self: flex-start;
+    width: ${({ textsize }) => (textsize === "" ? "40%" : textsize)};
   }
 
-  @media screen and (max-width: 1300px) {
-    padding: 30px 2%;
-    gap: 2%;
+  @media screen and (max-width: 1100px) {
+    & img {
+      width: 300px;
+      height: 210px;
+    }
+    & h3 {
+      margin-bottom: 10px;
+    }
   }
-  @media screen and (max-width: 900px) {
+  @media screen and (max-width: 500px) {
     flex-direction: column;
+    align-items: center;
     gap: 30px;
+    & h3 {
+      text-align: center;
+    }
     & .pets-img {
-      width: 70%;
-      max-width: 300px;
+      width: 100%;
     }
     & img {
       width: 100%;
       height: auto;
     }
     & .pets-text {
+      width: 100%;
       align-self: center;
       text-align: center;
       & p {

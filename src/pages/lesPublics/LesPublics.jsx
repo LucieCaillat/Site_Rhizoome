@@ -10,7 +10,7 @@ export default function LesPublics() {
     <PublicsContainer>
       <Title1>Pour qui et où ?</Title1>
       <TypesOfPublicsContainer>
-        <TypeOfPublics>
+        <TypeOfPublics className="ecole">
           <div className="publics-icon">
             <i className="fa-solid fa-school" />
           </div>
@@ -21,7 +21,7 @@ export default function LesPublics() {
           </BodyText>
         </TypeOfPublics>
 
-        <TypeOfPublics>
+        <TypeOfPublics className="autre-structure">
           <div className="publics-icon">
             <i className="fa-solid fa-landmark" />
           </div>
@@ -33,7 +33,7 @@ export default function LesPublics() {
           </BodyText>
         </TypeOfPublics>
 
-        <TypeOfPublics>
+        <TypeOfPublics className="particulier">
           <div className="publics-icon">
             <i className="fa-solid fa-house-chimney-user" />
           </div>

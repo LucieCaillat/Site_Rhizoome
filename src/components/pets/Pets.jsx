@@ -2,9 +2,9 @@ import { PetContainer } from "./PetsStyle";
 import { Title3, BodyText } from "../../globalStyle";
 import colors from "../../utils/style/colors";
 
-export default function Pets({ img, title, text, orientation }) {
+export default function Pets({ img, title, text, orientation, textsize }) {
   return (
-    <PetContainer orientation={orientation}>
+    <PetContainer orientation={orientation} textsize={textsize}>
       <div className="pets-img">
         <img src={img} alt={title} />
       </div>

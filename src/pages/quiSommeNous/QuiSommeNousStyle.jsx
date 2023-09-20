@@ -12,7 +12,7 @@ export const QuiSommeNousContainer = styled.div`
   }
   & .pets-title {
     text-align: center;
-    margin: 80px 0;
+    margin: 80px 0 30px;
   }
   & #les-chiens {
     margin-top: 0;

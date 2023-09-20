@@ -26,6 +26,7 @@ export default function QuiSommeNous() {
           img={pet.img}
           text={pet.text}
           orientation={index % 2 === 0 ? "left" : "right"}
+          textsize={pet.textSize}
         />
       ))}
 
@@ -39,6 +40,7 @@ export default function QuiSommeNous() {
           img={pet.img}
           text={pet.text}
           orientation={index % 2 === 0 ? "left" : "right"}
+          textsize={pet.textSize}
         />
       ))}
 
@@ -52,6 +54,7 @@ export default function QuiSommeNous() {
           img={pet.img}
           text={pet.text}
           orientation={index % 2 === 0 ? "left" : "right"}
+          textsize={pet.textSize}
         />
       ))}
 
@@ -65,6 +68,7 @@ export default function QuiSommeNous() {
           img={pet.img}
           text={pet.text}
           orientation={index % 2 === 0 ? "left" : "right"}
+          textsize={pet.textSize}
         />
       ))}
 
@@ -78,6 +82,7 @@ export default function QuiSommeNous() {
           img={pet.img}
           text={pet.text}
           orientation={index % 2 === 0 ? "left" : "right"}
+          textsize={pet.textSize}
         />
       ))}
       <BeforeFooter />

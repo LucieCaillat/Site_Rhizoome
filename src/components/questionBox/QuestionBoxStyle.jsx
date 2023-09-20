@@ -4,7 +4,9 @@ import fontSize from "../../utils/style/fontSize";
 
 export const QuestionBoxContainer = styled.aside`
   position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: ${colors.offWhite};
   width: 45%;
   max-width: 700px;
@@ -29,7 +31,7 @@ export const QuestionBoxContainer = styled.aside`
   }
   & .answer {
     font-size: ${fontSize.smallBodyTextM};
-    padding: 20px;
+    padding: 5%;
     color: ${colors.darkBrown};
   }
   &:hover .question {

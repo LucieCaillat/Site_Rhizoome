@@ -51,7 +51,7 @@ export default function FlorinePresentation() {
           Mais ce n’est qu’à la naissance de mon premier enfant en 2022, que
           j’ai réalisé que j’avais le potentiel de combiner toutes ces
           expériences pour créer une activité sur mesure et en accord avec mes
-          valeurs… : Rhizoome naquit.
+          valeurs… Rhizoome naquit.
         </BodyText>
       </article>
     </FlorineBox>

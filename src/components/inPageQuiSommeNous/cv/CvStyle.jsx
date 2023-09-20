@@ -4,18 +4,19 @@ import fontSize from "../../../utils/style/fontSize";
 
 export const CvContainer = styled.aside`
   display: ${({ type }) => (type ? "none" : "block")};
-  background-color: ${colors.green};
+  background-color: ${colors.lightGreen};
   width: 500px;
   padding: 30px;
+
   & h3 {
     margin: 0;
-  }
-  & p {
+    color: ${colors.darkBrown};
     text-align: center;
-    margin: 0;
   }
+
   & li {
     margin: 20px 0;
+    color: ${colors.brown};
   }
   @media screen and (max-width: 1500px) {
     width: 400px;

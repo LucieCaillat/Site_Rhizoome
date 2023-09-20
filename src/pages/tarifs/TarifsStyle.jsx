@@ -37,7 +37,7 @@ export const TarifsBox = styled.section`
     background-color: ${colors.lightBrown};
   }
   &.tarifs_particuliers {
-    background-color: ${colors.darkGreen};
+    background-color: ${colors.yellow};
   }
   width: 48%;
   min-width: 700px;
@@ -50,16 +50,18 @@ export const TarifsBox = styled.section`
   }
   & p {
     margin: 20px 0;
-    text-align: left;
+    text-align: center;
   }
   & .frais {
     color: white;
     text-align: center;
     margin: 40px 0;
-    transform: scale(1.2);
+    transform: scale(0.9);
+    font-weight: normal;
   }
   & div {
     font-weight: normal;
+    text-align: center;
   }
   @media screen and (max-width: 1535px) {
     max-width: 860px;

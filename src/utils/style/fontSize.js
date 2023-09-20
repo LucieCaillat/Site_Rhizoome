@@ -18,20 +18,20 @@ const fontSize = {
   title1M: "70px",
   title1S: "50px",
 
-  title2: "60px",
-  title2M: "50px",
-  title2S: "40px",
+  title2: "50px",
+  title2M: "40px",
+  title2S: "30px",
 
-  title3: "45px",
-  title3M: "35px",
-  title3S: "25px",
+  title3: "40px",
+  title3M: "30px",
+  title3S: "20px",
 
-  bodyText: "30px",
-  bodyTextM: "25px",
+  bodyText: "25px",
+  bodyTextM: "20px",
   bodyTextS: "18px",
 
-  smallBodyText: "25px",
-  smallBodyTextM: "20px",
+  smallBodyText: "20px",
+  smallBodyTextM: "18px",
   smallBodyTextS: "16px",
 
   activityBox: "40px",

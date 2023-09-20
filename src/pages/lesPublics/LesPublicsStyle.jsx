@@ -1,5 +1,6 @@
 import styled from "styled-components";
 import colors from "../../utils/style/colors";
+import fontSize from "../../utils/style/fontSize";
 
 export const PublicsContainer = styled.div`
   position: relative;
@@ -24,6 +25,28 @@ export const TypesOfPublicsContainer = styled.div`
 `;
 
 export const TypeOfPublics = styled.section`
+  &.ecole {
+    & .publics-icon {
+      background-color: ${colors.purple};
+      color: ${colors.purple};
+    }
+  }
+  &.autre-structure {
+    & .publics-icon {
+      background-color: ${colors.blue};
+      color: ${colors.blue};
+    }
+  }
+  &.particulier {
+    & .publics-icon {
+      background-color: ${colors.yellow};
+      color: ${colors.yellow};
+      & i {
+        filter: brightness(0.85);
+      }
+    }
+  }
+
   position: relative;
   width: 30%;
   min-width: 350px;
@@ -33,11 +56,12 @@ export const TypeOfPublics = styled.section`
   text-align: center;
   & h2 {
     color: ${colors.offWhite};
+    line-height: ${fontSize.title2};
   }
   & p {
     color: ${colors.offWhite};
-    margin-top: 20px;
-    text-align: left;
+    margin-top: 90px;
+    text-align: center;
   }
 
   & .publics-icon {
@@ -49,10 +73,11 @@ export const TypeOfPublics = styled.section`
     display: flex;
     justify-content: center;
     align-items: center;
-    color: ${colors.translucentWhite};
-    font-size: 300px;
-    background-color: ${colors.green};
+    font-size: 100px;
     z-index: -1;
+    & i {
+      filter: brightness(0.8);
+    }
   }
   @media screen and (max-width: 1131px) {
     width: 46%;

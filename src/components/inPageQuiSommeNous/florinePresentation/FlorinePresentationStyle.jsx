@@ -18,21 +18,22 @@ export const FlorineBox = styled.section`
     gap: 20px;
     width: 0px;
     z-index: 1;
-    background-color: blue;
   }
   & article {
     width: 100%;
     background-color: ${colors.lightBrown};
-    padding: 30px;
+    padding: 30px 5%;
     padding-right: 320px;
 
     & h2 {
-      color: ${colors.cream};
+      color: ${colors.darkBrown};
       margin-bottom: 20px;
     }
-    & p,
-    li {
-      margin-bottom: 20px;
+    & p {
+      margin-bottom: 30px;
+    }
+    & li {
+      margin: 40px 20px;
     }
   }
 
@@ -57,7 +58,7 @@ export const FlorineBox = styled.section`
     }
   }
 
-  @media screen and (max-width: 1237px) and (min-width: 901px) {
+  @media screen and (max-width: 1020px) and (min-width: 901px) {
     & .overflow-2 {
       margin-right: 0px;
     }

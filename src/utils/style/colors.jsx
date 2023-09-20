@@ -1,10 +1,12 @@
 const colors = {
+  white: "white",
   darkGray: "#55604d",
   offWhite: "#fff7e9",
   cream: "#ffe6ba",
   green: "#87bd28",
   darkGreen: "#65A20A",
-  lightGreen: "	#C5C300",
+  lightGreen: "#9FCB57",
+  anisGreen: "	#C5C300",
   orange: "#E95C13",
   darkBrown: "#704111",
   brown: "#92551C",

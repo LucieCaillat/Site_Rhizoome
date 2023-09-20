@@ -1,12 +1,12 @@
 import { TeamPartContainer, BodyText } from "./TeamPartStyle";
 import { Title2 } from "../../../globalStyle";
 import RoundImageLink from "../roundImageLink/RoundImageLink";
-import imgFlorine from "../../../assets/florine.jpg";
-import imgChiens from "../../../assets/les_chiens.jpg";
-import imgChevres from "../../../assets/les_chevres.jpg";
-import imgPoules from "../../../assets/les_poules.jpg";
-import imgLapins from "../../../assets/les_lapins.jpg";
-import imgCochonDInde from "../../../assets/les_cochons_d_inde.jpg";
+import imgFlorine from "../../../assets/florine.JPG";
+import imgChiens from "../../../assets/pets/chiens.jpg";
+import imgChevres from "../../../assets/pets/chevres.JPG";
+import imgPoules from "../../../assets/pets/poules.JPG";
+import imgLapins from "../../../assets/pets/lapin.JPG";
+import imgCochonDInde from "../../../assets/pets/cochon_d_inde.JPG";
 
 const petRoundImageSize = "250";
 

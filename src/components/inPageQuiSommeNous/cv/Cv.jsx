@@ -4,8 +4,7 @@ export default function Cv({ type }) {
   return (
     <CvContainer type={type}>
       <SmallBodyText>
-        <h3>Mini CV</h3>
-        <p>Florine Davi</p>
+        <h3>Florine Davi</h3>
         <ul>
           <li>2014 : Master Environnement </li>
           <li>

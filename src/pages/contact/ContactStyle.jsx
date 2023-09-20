@@ -10,6 +10,7 @@ export const ContactContainer = styled.div`
   }
   & .contact-subtitle {
     text-align: center;
+    color: ${colors.lightBrown};
   }
   & .contact-body {
     margin: 50px auto;
