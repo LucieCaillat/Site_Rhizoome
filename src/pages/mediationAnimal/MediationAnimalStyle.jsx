@@ -17,6 +17,11 @@ export const MediationAnimalContainer = styled.div`
     text-align: center;
     color: ${colors.lightBrown};
   }
+  & .conlusion {
+    text-align: center;
+    color: ${colors.orange};
+    margin-top: 20px;
+  }
 `;
 
 export const TitleContainer = styled.div`

@@ -1,7 +1,7 @@
 import { PartContainer, TagBox, TextImgContainer } from "./AutourDuChienStyle";
 import { BodyText, Title2 } from "../../globalStyle";
 import Tag from "../../components/tag/Tag";
-import peluches from "../../assets/PECCRAM_peluches.jpg";
+import peluches from "../../assets/PECCRAM_peluches.JPG";
 import peccramEnfant from "../../assets/PECCRAM-enfant.jpg";
 
 export default function Peccram() {

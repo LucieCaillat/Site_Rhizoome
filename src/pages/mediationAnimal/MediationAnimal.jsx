@@ -9,6 +9,7 @@ import InfoBoxes from "../../components/inPageMediationAnimal/infoBoxes/InfoBoxe
 import BeforeFooter from "../../components/footer/BeforeFooter";
 import img1 from "../../assets/mediation_animal_1.jpg";
 import img2 from "../../assets/mediation_animal_2.jpg";
+import deroulementSeance from "../../assets/deroulement_seance.png";
 
 export default function MediationAnimal() {
   return (
@@ -56,7 +57,23 @@ export default function MediationAnimal() {
       </TextContainer>
       <Title2>Les bienfaits apportés par la médiation animale</Title2>
       <InfoBoxes />
-
+      <Title2>Déroulement d'une séance</Title2>
+      <TextImgContainer>
+        <img src={deroulementSeance} alt="" />
+        <BodyText>
+          Les séances se déroulent en intérieur ou en extérieur, la plupart du
+          temps sur table avec nappe cirée mais pour les tout-petits les séances
+          peuvent être proposées au sol, en cercle. Pour chaque participant des
+          interactions adaptées à leur capacité et aux objectifs fixés en équipe
+          en amont des séances sont proposées. Les ateliers peuvent être
+          ponctuels ou réguliers avec une approche relationnelle, sociale,
+          sensorielle, motrice et pédagogique.{" "}
+        </BodyText>
+      </TextImgContainer>
+      <BodyText className="conlusion">
+        N’hésitez pas à nous contacter pour discuter du projet que vous
+        souhaitez mettre en place !
+      </BodyText>
       <BeforeFooter />
     </MediationAnimalContainer>
   );
