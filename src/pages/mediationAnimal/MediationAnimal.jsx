@@ -3,6 +3,7 @@ import {
   TitleContainer,
   TextContainer,
   TextImgContainer,
+  Insert,
 } from "./MediationAnimalStyle";
 import { Title1, Title2, BodyText, Citation } from "../../globalStyle";
 import InfoBoxes from "../../components/inPageMediationAnimal/infoBoxes/InfoBoxes";
@@ -10,6 +11,7 @@ import BeforeFooter from "../../components/footer/BeforeFooter";
 import img1 from "../../assets/mediation_animal_1.jpg";
 import img2 from "../../assets/mediation_animal_2.jpg";
 import deroulementSeance from "../../assets/deroulement_seance.png";
+import ane from "../../assets/anes_en_vexin.JPG";
 
 export default function MediationAnimal() {
   return (
@@ -57,23 +59,43 @@ export default function MediationAnimal() {
       </TextContainer>
       <Title2>Les bienfaits apportés par la médiation animale</Title2>
       <InfoBoxes />
-      <Title2>Déroulement d'une séance</Title2>
-      <TextImgContainer>
-        <img src={deroulementSeance} alt="" />
-        <BodyText>
-          Les séances se déroulent en intérieur ou en extérieur, la plupart du
-          temps sur table avec nappe cirée mais pour les tout-petits les séances
-          peuvent être proposées au sol, en cercle. Pour chaque participant des
-          interactions adaptées à leur capacité et aux objectifs fixés en équipe
-          en amont des séances sont proposées. Les ateliers peuvent être
-          ponctuels ou réguliers avec une approche relationnelle, sociale,
-          sensorielle, motrice et pédagogique.{" "}
-        </BodyText>
-      </TextImgContainer>
+      <TextContainer>
+        <Title2>Déroulement d'une séance</Title2>
+        <TextImgContainer>
+          <img src={deroulementSeance} alt="" />
+          <BodyText>
+            Les séances se déroulent en intérieur ou en extérieur, la plupart du
+            temps sur table avec nappe cirée mais pour les tout-petits les
+            séances peuvent être proposées au sol, en cercle. Pour chaque
+            participant des interactions adaptées à leur capacité et aux
+            objectifs fixés en équipe en amont des séances sont proposées. Les
+            ateliers peuvent être ponctuels ou réguliers avec une approche
+            relationnelle, sociale, sensorielle, motrice et pédagogique.{" "}
+          </BodyText>
+        </TextImgContainer>
+      </TextContainer>
+
       <BodyText className="conlusion">
         N’hésitez pas à nous contacter pour discuter du projet que vous
-        souhaitez mettre en place !
+        souhaitez mettre en place !
       </BodyText>
+      <Insert>
+        <TextContainer>
+          <TextImgContainer>
+            <BodyText>
+              Il est possible d’envisager des séances avec les ânes de
+              l’association « Ânes en Vexin » que ce soit dans votre structure
+              ou sur le site d’accueil de cette association, à Longuesse : un
+              cadre rural magnifique qui permet de sortir un peu hors des murs !
+              N’hésitez pas à visiter{" "}
+              <a href="https://www.anesenvexin.fr/">leur site internet</a> pour
+              voir ce qu’il est possible de faire avec eux !
+            </BodyText>
+            <img src={ane} alt="" />
+          </TextImgContainer>
+        </TextContainer>
+      </Insert>
+
       <BeforeFooter />
     </MediationAnimalContainer>
   );

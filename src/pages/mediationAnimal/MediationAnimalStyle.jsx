@@ -22,6 +22,12 @@ export const MediationAnimalContainer = styled.div`
     color: ${colors.orange};
     margin-top: 20px;
   }
+  & a {
+    color: ${colors.darkGray};
+    &:hover {
+      color: ${colors.darkBrown};
+    }
+  }
 `;
 
 export const TitleContainer = styled.div`
@@ -71,4 +77,8 @@ export const TextImgContainer = styled.div`
       width: 100%;
     }
   }
+`;
+export const Insert = styled.div`
+  margin-top: 60px;
+  background-color: ${colors.cream};
 `;

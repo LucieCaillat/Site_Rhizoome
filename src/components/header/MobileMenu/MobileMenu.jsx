@@ -32,16 +32,16 @@ export default function MobileMenu() {
           <DropdownMobileMenu
             name="Activités"
             listLink={[
-              { name: "Animation Nature", link: "/AnimationNature" },
+              { name: "Animation nature", link: "/AnimationNature" },
               { name: "Autour du chien", link: "/AutourDuChien" },
-              { name: "Mediation Par l'animal", link: "/MediationAnimal" },
+              { name: "Mediation par l'animal", link: "/MediationAnimal" },
             ]}
             action={() => setIsOpen(false)}
           />
           <DropdownMobileMenu
             name="Infos pratiques"
             listLink={[
-              { name: "Les Publics", link: "/LesPublics" },
+              { name: "Les publics", link: "/LesPublics" },
               { name: "Tarifs", link: "/Tarifs" },
               { name: "Contact", link: "/Contact" },
             ]}
