@@ -22,7 +22,7 @@ export const Hat = styled.div`
   padding: 4px 1%;
   padding-bottom: ${({ open }) => (open === "yes" ? "24px" : "0")};
   background-color: ${({ color, open }) =>
-    open === "yes" ? color : colors.translucentGray};
+    open === "yes" ? color[0] : color[2]};
   color: ${({ open }) => (open === "yes" ? colors.offWhite : colors.darkGray)};
   font-size: ${fontSize.title2};
   line-height: 41px;

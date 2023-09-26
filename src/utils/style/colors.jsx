@@ -29,9 +29,9 @@ const colors = {
   infoBox: "rgba(251,250,232, 0.60)",
 
   animationTopicColors: {
-    autourDeLaFerme: ["	#935D26", "#AF7634"],
-    autourDeLaNature: ["#66A316", "#87BD28"],
-    autourDuDD: ["#CF3D02", "#E95C13"],
+    autourDeLaFerme: ["	#935D26", "#AF7634", "rgba(146, 85, 28, 0.15)"],
+    autourDeLaNature: ["#66A316", "#87BD28", "rgba(135, 189, 40, 0.20)"],
+    autourDuDD: ["#CF3D02", "#E95C13", "rgba(233, 92, 19, 0.2)"],
   },
   couleurTag: {
     "ADAPTABLE TOUS PUBLIC": "	#C5C300",
