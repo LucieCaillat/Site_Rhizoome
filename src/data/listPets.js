@@ -1,13 +1,13 @@
-import pirate from "../assets/pets/pirate.JPG";
-import topaze from "../assets/pets/topaze.JPG";
-import freyja from "../assets/pets/freyja.JPG";
-import jeannette from "../assets/pets/jeannette.JPG";
-import houpette from "../assets/pets/houpette.JPG";
-import suzette from "../assets/pets/suzette.JPG";
+import pirate from "../assets/pets/pirate.jpg";
+import topaze from "../assets/pets/topaze.jpg";
+import freyja from "../assets/pets/freyja.jpg";
+import jeannette from "../assets/pets/jeannette.jpg";
+import houpette from "../assets/pets/houpette.jpg";
+import suzette from "../assets/pets/suzette.jpg";
 import blouf from "../assets/pets/blouf.jpg";
-import marbre from "../assets/pets/marbre.JPG";
-import teddy from "../assets/pets/teddy.JPG";
-import panda from "../assets/pets/panda.JPG";
+import marbre from "../assets/pets/marbre.jpg";
+import teddy from "../assets/pets/teddy.jpg";
+import panda from "../assets/pets/panda.jpg";
 
 const listPets = {
   chiens: [

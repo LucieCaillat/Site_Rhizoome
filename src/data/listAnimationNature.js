@@ -1,4 +1,4 @@
-import decouverteDesAnimaux from "../assets/animation_nature/decouverte_animaux.JPG";
+import decouverteDesAnimaux from "../assets/animation_nature/decouverte_animaux.jpg";
 import deLOeufALaPoule from "../assets/animation_nature/poule_oeuf.jpg";
 import laLaineEtLeMouton from "../assets/animation_nature/laine.jpg";
 import lesProduitsLaitiers from "../assets/animation_nature/produits_laitiers.jpg";

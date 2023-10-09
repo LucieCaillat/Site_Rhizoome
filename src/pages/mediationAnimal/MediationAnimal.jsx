@@ -10,8 +10,8 @@ import InfoBoxes from "../../components/inPageMediationAnimal/infoBoxes/InfoBoxe
 import BeforeFooter from "../../components/footer/BeforeFooter";
 import img1 from "../../assets/mediation_animal_1.jpg";
 import img2 from "../../assets/mediation_animal_2.jpg";
-import deroulementSeance from "../../assets/deroulement_seance.png";
-import ane from "../../assets/anes_en_vexin.JPG";
+import deroulementSeance from "../../assets/deroulement_seance.jpg";
+import ane from "../../assets/anes_en_vexin.jpg";
 
 export default function MediationAnimal() {
   return (

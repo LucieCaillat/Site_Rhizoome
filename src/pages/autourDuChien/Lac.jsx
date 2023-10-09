@@ -1,7 +1,7 @@
 import { PartContainer, TagBox, TextImgContainer } from "./AutourDuChienStyle";
 import { BodyText, Title2 } from "../../globalStyle";
 import Tag from "../../components/tag/Tag";
-import lacEnfant from "../../assets/lac.JPG";
+import lacEnfant from "../../assets/lac.jpg";
 
 export default function Lac() {
   return (

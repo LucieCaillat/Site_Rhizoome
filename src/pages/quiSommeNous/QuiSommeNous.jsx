@@ -3,7 +3,7 @@ import FlorinePresentation from "../../components/inPageQuiSommeNous/florinePres
 import Pets from "../../components/pets/Pets";
 import { Title1, Title2, Cover } from "../../globalStyle";
 import listPets from "../../data/listPets";
-import cover from "../../assets/cover/qui_sommes_nous.JPG";
+import cover from "../../assets/cover/qui_sommes_nous.jpg";
 import QuestionsBox from "../../components/inPageQuiSommeNous/questionsBox/QuestionsBox";
 import BeforeFooter from "../../components/footer/BeforeFooter";
 import Cv from "../../components/inPageQuiSommeNous/cv/Cv";
