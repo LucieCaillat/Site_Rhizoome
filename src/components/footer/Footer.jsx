@@ -26,13 +26,6 @@ const StyledFooter = styled.footer`
     & span {
       color: ${colors.cream};
     }
-    & .link {
-      color: ${colors.lightGrayBrown};
-      text-decoration: none;
-      &:hover {
-        text-decoration: underline;
-      }
-    }
   }
   & #footer-title {
     margin: 0;
@@ -47,6 +40,13 @@ const StyledFooter = styled.footer`
   & #footer-legal-mention {
     display: flex;
     justify-content: end;
+  }
+  & .link {
+    color: ${colors.lightGrayBrown};
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
   }
   @media screen and (max-width: 1300px) {
     height: 200px;
@@ -76,7 +76,10 @@ export default function Footer() {
           Mail : rhizoome95@gmail.com
           <br />
           Facebook :{" "}
-          <Link className="link" to="#">
+          <Link
+            className="link"
+            to="https://www.facebook.com/profile.php?id=100085422852404"
+          >
             rhizoome
           </Link>
         </p>
@@ -92,7 +95,9 @@ export default function Footer() {
       <div id="footer-legal-mention">
         <p>
           ©2023 <br />
-          Mentions légales
+          <Link className="link" to="/MentionsLegales">
+            Mentions légales
+          </Link>
         </p>
       </div>
     </StyledFooter>

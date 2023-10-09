@@ -11,6 +11,7 @@ import QuiSommeNous from "../pages/quiSommeNous/QuiSommeNous";
 import LesPublics from "../pages/lesPublics/LesPublics";
 import Contact from "../pages/contact/Contact";
 import Tarifs from "../pages/tarifs/Tarifs";
+import MentionsLegales from "../pages/mentionsLegales/MentionsLegales";
 
 export default function RoutesApp() {
   return (
@@ -26,6 +27,7 @@ export default function RoutesApp() {
         <Route exact path="/LesPublics" element={<LesPublics />} />
         <Route exact path="/Contact" element={<Contact />} />
         <Route exact path="/Tarifs" element={<Tarifs />} />
+        <Route exact path="/MentionsLegales" element={<MentionsLegales />} />
       </Routes>
       <Footer />
     </React.Fragment>
